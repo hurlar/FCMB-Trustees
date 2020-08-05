@@ -1,0 +1,68 @@
+﻿<?xml version="1.0"?>
+<configuration date="2020/01/14" author="e.World Technology Ltd.">
+<project id="{D9B361E7-B2C1-4293-B9B3-B581986A15CC}" file="C:\Users\hurr\Documents\PHPMaker\Projects\cms-trustees.pmp" name="cms2Dtrustees" product="PHPMaker" version="10.0" datetime="2020/01/14 10:44:19" languagefolder="phplang" userlevel="">
+<table id="adminusers" name="adminusers" caption="Admin Users" userlevel="" priv="1"/>
+<table id="banner_ads" name="banner_ads" caption="Banner Ads" userlevel="" priv="1"/>
+<table id="content" name="content" caption="Web Pages" userlevel="" priv="1"/>
+<table id="fileuploads" name="fileuploads" caption="File Uploads" userlevel="" priv="1"/>
+<table id="gallery_cats" name="gallery_cats" caption="Gallery Category" userlevel="" priv="1"/>
+<table id="gallery_photos" name="gallery_photos" caption="Gallery Photos" userlevel="" priv="1"/>
+<table id="layout" name="layout" caption="Content Grid" userlevel="" priv="1"/>
+<table id="news_tb" name="news_tb" caption="News Ticker" userlevel="" priv="1"/>
+<table id="page_cat" name="page_cat" caption="Page Category" userlevel="" priv="1"/>
+<table id="page_template" name="page_template" caption="Page Template" userlevel="" priv="1"/>
+<table id="testimonials" name="testimonials" caption="Testimonials" userlevel="" priv="1"/>
+<table id="customers" name="customers" caption="Registered Customers" userlevel="" priv="1"/>
+<table id="order_detail" name="order_detail" caption="Order Details" userlevel="" priv="1"/>
+<table id="orders" name="orders" caption="Orders" userlevel="" priv="1"/>
+<table id="products" name="products" caption="Listed Products" userlevel="" priv="1"/>
+<table id="product_cats" name="product_cats" caption="Shipping Categories" userlevel="" priv="1"/>
+<table id="shipping_cats" name="shipping_cats" caption="Products" userlevel="" priv="1"/>
+<table id="gallery_subcat" name="gallery_subcat" caption="Sub Categories" userlevel="" priv="1"/>
+<table id="pa_blog_cats" name="pa_blog_cats" caption="pa blog cats" userlevel="" priv="1"/>
+<table id="pa_blog_posts" name="pa_blog_posts" caption="pa blog posts" userlevel="" priv="1"/>
+<table id="photos" name="photos" caption="Photos " userlevel="" priv="1"/>
+<table id="tags" name="tags" caption="tags" userlevel="" priv="1"/>
+<table id="users" name="users" caption="Registered Users" userlevel="" priv="1"/>
+<table id="faq" name="faq" caption="FAQs" userlevel="" priv="1"/>
+<table id="directors" name="directors" caption="Board Of Directors" userlevel="" priv="1"/>
+<table id="management" name="management" caption="Management" userlevel="" priv="1"/>
+<table id="mgt_cat" name="mgt_cat" caption="Management Category" userlevel="" priv="1"/>
+<table id="faq_cat" name="faq_cat" caption="FAQs Category" userlevel="" priv="1"/>
+<table id="addinfo_tb" name="addinfo_tb" caption="Additional Information" userlevel="" priv="1"/>
+<table id="alt_beneficiary" name="alt_beneficiary" caption="Secondary Beneficiary" userlevel="" priv="1"/>
+<table id="assets_legacy" name="assets_legacy" caption="Assets Legacy" userlevel="" priv="1"/>
+<table id="assets_tb" name="assets_tb" caption="Assets" userlevel="" priv="1"/>
+<table id="beneficiary_dump" name="beneficiary_dump" caption="Beneficiary's Details" userlevel="" priv="1"/>
+<table id="child_tb" name="child_tb" caption="child tb" userlevel="" priv="1"/>
+<table id="children_details" name="children_details" caption="Child's Details" userlevel="" priv="1"/>
+<table id="divorce_tb" name="divorce_tb" caption="Divorce" userlevel="" priv="1"/>
+<table id="executor_tb" name="executor_tb" caption="Executors" userlevel="" priv="1"/>
+<table id="overall_asset" name="overall_asset" caption="Distribution of Assets" userlevel="" priv="1"/>
+<table id="payment_tb" name="payment_tb" caption="Payment" userlevel="" priv="1"/>
+<table id="personal_info" name="personal_info" caption="Personal Information" userlevel="" priv="1"/>
+<table id="preview_will" name="preview_will" caption="Submitted Forms" userlevel="" priv="1"/>
+<table id="processflow_tb" name="processflow_tb" caption="Process Flow" userlevel="" priv="1"/>
+<table id="spouse_tb" name="spouse_tb" caption="Spouse Details" userlevel="" priv="1"/>
+<table id="trustee_tb" name="trustee_tb" caption="Trustees" userlevel="" priv="1"/>
+<table id="will_tb" name="will_tb" caption="Downloadable Forms" userlevel="" priv="1"/>
+<table id="witness_tb" name="witness_tb" caption="Witnesses" userlevel="" priv="1"/>
+<table id="comprehensivewill_tb" name="comprehensivewill_tb" caption="Comprehensive Will" userlevel="" priv="1"/>
+<table id="education_beneficiary" name="education_beneficiary" caption="education beneficiary" userlevel="" priv="1"/>
+<table id="education_tb" name="education_tb" caption="Education Trust Form" userlevel="" priv="1"/>
+<table id="humanresourcescontact" name="humanresourcescontact" caption="humanresourcescontact" userlevel="" priv="1"/>
+<table id="identification_tb" name="identification_tb" caption="identification tb" userlevel="" priv="1"/>
+<table id="investment_form" name="investment_form" caption="Investment Trust" userlevel="" priv="1"/>
+<table id="nextofkin" name="nextofkin" caption="Next of Kin" userlevel="" priv="1"/>
+<table id="premiumwill_tb" name="premiumwill_tb" caption="Premium Will" userlevel="" priv="1"/>
+<table id="privatetrust_tb" name="privatetrust_tb" caption="Private Trust Form" userlevel="" priv="1"/>
+<table id="reserve_form" name="reserve_form" caption="reserve form" userlevel="" priv="1"/>
+<table id="simplewill_tb" name="simplewill_tb" caption="Simple Will" userlevel="" priv="1"/>
+<table id="sourceoffund" name="sourceoffund" caption="sourceoffund" userlevel="" priv="1"/>
+<table id="trustdeed_tb" name="trustdeed_tb" caption="trustdeed tb" userlevel="" priv="1"/>
+<table id="investmenttrust_tb" name="investmenttrust_tb" caption="Investment Trust Form" userlevel="" priv="1"/>
+<table id="reservetrust_tb" name="reservetrust_tb" caption="Reserve Trust Form" userlevel="" priv="1"/>
+<table id="simplewill_assets_tb" name="simplewill_assets_tb" caption="Simple Will Assets" userlevel="" priv="1"/>
+<table id="simplewill_overall_asset" name="simplewill_overall_asset" caption="Simple Will Percentage Sharing" userlevel="" priv="1"/>
+<table id="downloadable_forms" name="downloadable_forms" caption="downloadable forms" userlevel="" priv="1"/>
+</project></configuration>

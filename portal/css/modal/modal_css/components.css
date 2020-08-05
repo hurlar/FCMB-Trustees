@@ -1,0 +1,197 @@
+
+.input-lg,
+.form-group-lg .form-control {
+    height: 50px;
+    border-radius: 3px
+}
+.icon-round {
+    height: 35px;
+    width: 35px;
+    color: #CF3D27;
+    line-height: 34px;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid #CF3D27;
+    background-color: transparent
+}
+.icon-round-inverse {
+    height: 35px;
+    width: 35px;
+    color: #fff;
+    line-height: 34px;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid #fff;
+    background-color: transparent
+}
+.icon-fill {
+    background-color: #CF3D27;
+    color: #fff
+}
+.icon-fill-inverse {
+    background-color: #fff;
+    color: #CF3D27
+}
+.icon-2x {
+    height: 70px;
+    width: 70px;
+    font-size: 26px;
+    line-height: 68px
+}
+.icon-divider {
+    position: relative;
+    display: block;
+    height: 14px;
+    width: 24px;
+    border: 0;
+    margin: auto
+}
+.icon-divider:before,
+.icon-divider:after {
+    content: "";
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    position: absolute
+}
+.icon-divider:before {
+    background-color: #CF3D27;
+    left: 0
+}
+.icon-divider:after {
+    background-color: #1a2b51;
+    right: 0
+}
+/*.btn {*/
+/*    position: relative;*/
+/*    font-family: 'Gotham', sans-serif;*/
+/*    color: #fff;*/
+/*    border: 0;*/
+/*    padding: 15px 35px;*/
+/*    font-size: 15px;*/
+/*    letter-spacing: 1px;*/
+/*    text-transform: uppercase;*/
+/*    overflow: hidden;*/
+/*    -webkit-transition: 350ms ease all;*/
+/*    transition: 350ms ease all;*/
+/*    z-index: 2*/
+/*}*/
+/*.btn:after {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    height: 0;*/
+/*    width: 0;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    border-radius: 50%;*/
+/*    opacity: .2;*/
+/*    background-color: #fff;*/
+/*    -webkit-transform: translate(-50%, -50%);*/
+/*    transform: translate(-50%, -50%);*/
+/*    -webkit-transition: 550ms ease all;*/
+/*    transition: 550ms ease all;*/
+/*    z-index: -1*/
+/*}*/
+/*.btn:hover:after {*/
+/*    height: 200px;*/
+/*    width: 200px;*/
+/*    opacity: 0*/
+/*}*/
+
+button.btn-primary.pull-right {
+    position: relative;
+    color: #fff;
+    border: 0;
+    padding: 15px 35px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    overflow: hidden;
+    -webkit-transition: 350ms ease all;
+    transition: 350ms ease all;
+    z-index: 2;
+}
+.btn:active,
+.btn.active,
+.btn:focus,
+.btn:active:focus {
+    outline: none!important;
+    box-shadow: none!important
+}
+
+.fade {
+    -webkit-transition: 750ms ease all;
+    transition: 750ms ease all
+}
+.fade.in {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%)
+}
+
+.modal {
+    text-align: center
+}
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle
+}
+.modal-title {
+    font-weight: 700;
+    text-align: center
+}
+.modal-header {
+    border-bottom: 1px dashed #d7d7d7;
+    padding: 10px 15px
+}
+.modal-body {
+    padding: 30px
+}
+.modal-body h1,
+.modal-body h2,
+.modal-body h3,
+.modal-body h4,
+.modal-body h5,
+.modal-body h6 {
+    margin-top: 0
+}
+h4{
+    font-size: 20px;
+    line-height: 20px;
+    color: #5C068C;
+}
+.modal-footer {
+    border-top: 1px dashed #d7d7d7;
+    padding: 10px 15px
+}
+.modal-content {
+    border: 2px solid #f2f2f2;
+    border-radius: 3px;
+    background-repeat: no-repeat;
+    background-position: left center
+}
+.modal .close {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #5C068C;
+    color: #fff;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    line-height: 11px;
+    opacity: 1;
+    border-radius: 50%;
+    z-index: 2
+}
+.modal-backdrop.in {
+    opacity: .65
+}
+@media only screen and (min-width: 768px) {
+    .modal:before {
+        display: inline-block;
+        vertical-align: middle;
+        content: " ";
+        height: 100%
+    }
+}

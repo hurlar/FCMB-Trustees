@@ -1,0 +1,2759 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<ew-language date="2019/10/16" version="10.0.1" id="en" name="English" desc="English" author="e.World Technology Ltd.">
+	<locale>
+		<phrase id="locale" value=""/><!-- *** system locale for this language -->
+		<phrase id="use_system_locale" value="1"/><!-- *** change to "0" to disable system locale and use the following settings *** -->
+		<phrase id="decimal_point" value="."/>
+		<phrase id="thousands_sep" value=","/>
+		<phrase id="mon_decimal_point" value="."/>
+		<phrase id="mon_thousands_sep" value=","/>
+		<phrase id="currency_symbol" value="$"/>
+		<phrase id="positive_sign" value=""/>
+		<phrase id="negative_sign" value="-"/>
+		<phrase id="frac_digits" value="2"/>
+		<phrase id="p_cs_precedes" value="1"/>
+		<phrase id="p_sep_by_space" value="0"/>
+		<phrase id="n_cs_precedes" value="1"/>
+		<phrase id="n_sep_by_space" value="0"/>
+		<phrase id="p_sign_posn" value="3"/>
+		<phrase id="n_sign_posn" value="3"/>
+		<phrase id="time_zone" value="US/Pacific"/><!-- *** used for multi-language site only *** -->
+	</locale>
+	<global>
+		<phrase id="actiondeleted" value="Deleted"/>
+		<phrase id="actioninserted" value="Inserted"/>
+		<phrase id="actioninsertedgridadd" value="Inserted (Grid-Add)"/>
+		<phrase id="actionupdated" value="Updated"/>
+		<phrase id="actionupdatedgridedit" value="Updated (Grid-Edit)"/>
+		<phrase id="actionupdatedmultiupdate" value="Updated (Multi-Update)"/>
+		<phrase id="activateaccount" value="Your account is activated"/>
+		<phrase id="activatefailed" value="Activation failed"/>
+		<phrase id="add" value="Add"/>
+		<phrase id="addblankrow" value="Add Blank Row" imageurl="phpimages/addblankrow.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="addbtn" value="Add"/>
+		<phrase id="addlink" value="Add"/>
+		<phrase id="addmasterdetaillink" value="Add Master/Detail"/>
+		<phrase id="addsuccess" value="Add succeeded"/>
+		<phrase id="advancedsearch" value="Advanced Search"/>
+		<phrase id="allrecords" value="All"/>
+		<phrase id="allword" value="All words"/>
+		<phrase id="alwaysask" value="Always ask for my user name and password"/>
+		<phrase id="anyword" value="Any word"/>
+		<phrase id="audittrailautologin" value="autologin"/>
+		<phrase id="audittrailfailedattempt" value="failed attempt: %n"/>
+		<phrase id="audittrailuserloggedin" value="user already logged in"/>
+		<phrase id="audittrailpasswordexpired" value="password expired"/>
+		<phrase id="audittraillogin" value="login"/>
+		<phrase id="audittraillogout" value="logout"/>
+		<phrase id="autologin" value="Auto login until I logout explicitly"/>
+		<phrase id="average" value="Average"/>
+		<phrase id="backtolist" value="Back to List"/>
+		<phrase id="backtologin" value="Back to login page"/>
+		<phrase id="backtomasterrecordpage" value="Back to master table"/>
+		<phrase id="batchdeletebegin" value="*** Batch delete begin ***"/>
+		<phrase id="batchdeleterollback" value="*** Batch delete rollback ***"/>
+		<phrase id="batchdeletesuccess" value="*** Batch delete successful ***"/>
+		<phrase id="batchinsertbegin" value="*** Batch insert begin ***"/>
+		<phrase id="batchinsertrollback" value="*** Batch insert rollback ***"/>
+		<phrase id="batchinsertsuccess" value="*** Batch insert successful ***"/>
+		<phrase id="batchupdatebegin" value="*** Batch update begin ***"/>
+		<phrase id="batchupdaterollback" value="*** Batch update rollback ***"/>
+		<phrase id="batchupdatesuccess" value="*** Batch update successful ***"/>
+		<phrase id="breadcrumbdivider" value="/"/>
+		<phrase id="buttonactions" value="Actions"/>
+		<phrase id="buttonaddedit" value="Add/Edit"/>
+		<phrase id="buttondetails" value="Master/Detail"/>
+		<phrase id="buttonexport" value="Export"/>
+		<phrase id="buttonlistoptions" value="Options"/>
+		<phrase id="cancelbtn" value="Cancel"/>
+		<phrase id="cancellink" value="Cancel" imageurl="phpimages/cancel.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="changepwd" value="Change Password"/>
+		<phrase id="changepwdpage" value="Change Password"/>
+		<phrase id="changepwdbtn" value="Change"/>
+		<phrase id="choosefile" value="Choose..."/>
+		<phrase id="confirm" value="Confirm"/>
+		<phrase id="confirmbtn" value="Confirm"/>
+		<phrase id="confirmpassword" value="Confirm Password"/>
+		<phrase id="conflictcancellink" value="Cancel"/>
+		<phrase id="copy" value="Copy"/>
+		<phrase id="copylink" value="Copy" imageurl="phpimages/copy.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="count" value="Count"/>
+		<phrase id="customactioncompleted" value="Action '%s' is completed"/>
+		<phrase id="customactioncancelled" value="Action '%s' is cancelled"/>
+		<phrase id="customview" value="CUSTOM VIEW"/>
+		<phrase id="delete" value="Delete"/>
+		<phrase id="deletebtn" value="Delete"/>
+		<phrase id="deletecancelled" value="Delete cancelled"/>
+		<phrase id="deleteconfirmmsg" value="Do you want to delete this record?" client="1"/>
+		<phrase id="deletelink" value="Delete" imageurl="phpimages/delete.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="deletemulticonfirmmsg" value="Do you want to delete the selected records?" client="1"/>
+		<phrase id="deleteselectedlink" value="Delete Selected Records"/>
+		<phrase id="deletesuccess" value="Delete succeeded"/>
+		<phrase id="detaillink" value=""/>
+		<phrase id="detailcount" value="(%c)"/>
+		<phrase id="masterdetailcopylink" value="Master/Detail Copy"/>
+		<phrase id="masterdetaileditlink" value="Master/Detail Edit"/>
+		<phrase id="masterdetailviewlink" value="Master/Detail View"/>
+		<phrase id="dupindex" value="Duplicate value '%v' for unique index '%f'"/>
+		<phrase id="dupkey" value="Duplicate primary key: '%f'"/>
+		<phrase id="edit" value="Edit"/>
+		<phrase id="editbtn" value="Edit"/>
+		<phrase id="editlink" value="Edit" imageurl="phpimages/edit.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="enternewpassword" value="Please enter new password" client="1"/>
+		<phrase id="enteroldpassword" value="Please enter old password" client="1"/>
+		<phrase id="enterpassword" value="Please enter password" client="1"/>
+		<phrase id="enterpwd" value="Please enter password" client="1"/>
+		<phrase id="enterrequiredfield" value="Please enter required field" client="1"/>
+		<phrase id="entersearchcriteria" value="Please enter search criteria"/>
+		<phrase id="enterusername" value="Please enter username" client="1"/>
+		<phrase id="entervalidatecode" value="Please enter the validation code shown" client="1"/>
+		<phrase id="entersenderemail" value="Please enter sender email" client="1"/>
+		<phrase id="enterpropersenderemail" value="Exceed maximum sender email count or email address incorrect" client="1"/>
+		<phrase id="enterrecipientemail" value="Please enter recipient email" client="1"/>
+		<phrase id="enterproperrecipientemail" value="Exceed maximum recipient email count or email address incorrect" client="1"/>
+		<phrase id="enterproperccemail" value="Exceed maximum cc email count or email address incorrect" client="1"/>
+		<phrase id="enterproperbccemail" value="Exceed maximum bcc email count or email address incorrect" client="1"/>
+		<phrase id="entersubject" value="Please enter subject" client="1"/>
+		<phrase id="emailformsender" value="From"/>
+		<phrase id="emailformrecipient" value="To"/>
+		<phrase id="emailformcc" value="Cc"/>
+		<phrase id="emailformbcc" value="Bcc"/>
+		<phrase id="emailformsubject" value="Subject"/>
+		<phrase id="emailformmessage" value="Message"/>
+		<phrase id="emailformcontenttype" value="Send as"/>
+		<phrase id="emailformcontenttypeurl" value="URL"/>
+		<phrase id="emailformcontenttypehtml" value="HTML"/>
+		<phrase id="enteruid" value="Please enter user ID" client="1"/>
+		<phrase id="entervalidemail" value="Please enter valid Email Address!" client="1"/>
+		<phrase id="exactphrase" value="Exact phrase"/>
+		<phrase id="exceedmaxretry" value="Exceed maximum login retry count. Account is locked. Please try again in %t minutes"/>
+		<phrase id="exceedmaxemailexport" value="Exceed maximum export email count. Please try again later"/>
+		<phrase id="exporttocsv" value="Export to CSV" imageurl="phpimages/exportcsv.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="exporttocsvtext" value="CSV"/>
+		<phrase id="exporttoemail" value="Email" imageurl="phpimages/exportemail.gif" client="1" imagewidth="16" imageheight="16"/>
+		<phrase id="exporttoemailtext" value="Email" client="1"/>
+		<phrase id="exporttoexcel" value="Export to Excel" imageurl="phpimages/exportxls.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="exporttoexceltext" value="Excel"/>
+		<phrase id="exporttohtml" value="Export to HTML" imageurl="phpimages/exporthtml.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="exporttohtmltext" value="HTML"/>
+		<phrase id="exporttopdf" value="Export to PDF" imageurl="phpimages/exportpdf.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="exporttopdftext" value="PDF"/>
+		<phrase id="exporttoword" value="Export to Word" imageurl="phpimages/exportdoc.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="exporttowordtext" value="Word"/>
+		<phrase id="exporttoxml" value="Export to XML" imageurl="phpimages/exportxml.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="exporttoxmltext" value="XML"/>
+		<phrase id="failedtosendmail" value="Failed to send mail. "/>
+		<phrase id="fieldname" value="Field Name"/>
+		<phrase id="fieldrequiredindicator" value="&lt;span class=&quot;ewRequired&quot;&gt;&amp;nbsp;*&lt;/span&gt;"/>
+		<phrase id="filenotfound" value="File not found"/><!-- *** characters need to be supported by EW_TMP_IMAGE_FONT *** -->
+		<phrase id="overwritebtn" value="Overwrite"/>
+		<phrase id="overwritelink" value="Overwrite"/>
+		<phrase id="forgotpwd" value="Forgot Password"/>
+		<phrase id="goback" value="Go Back"/>
+		<phrase id="gridaddlink" value="Grid Add"/>
+		<phrase id="gridcancellink" value="Cancel" imageurl="phpimages/cancel.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="grideditlink" value="Grid Edit"/>
+		<phrase id="gridinsertlink" value="Insert" imageurl="phpimages/insert.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="gridsavelink" value="Save" imageurl="phpimages/update.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="hidehighlight" value="Hide highlight" client="1"/>
+		<phrase id="homepage" value="Home"/>
+		<phrase id="incorrectcreditcard" value="Incorrect credit card number"/>
+		<phrase id="incorrectdateymd" value="Incorrect date, format = yyyy%smm%sdd"/>
+		<phrase id="incorrectdatemdy" value="Incorrect date, format = mm%sdd%syyyy"/>
+		<phrase id="incorrectdatedmy" value="Incorrect date, format = dd%smm%syyyy"/>
+		<phrase id="incorrectshortdateymd" value="Incorrect date, format = yy%smm%sdd"/>
+		<phrase id="incorrectshortdatemdy" value="Incorrect date, format = mm%sdd%syy"/>
+		<phrase id="incorrectshortdatedmy" value="Incorrect date, format = dd%smm%syy"/>
+		<phrase id="incorrectemail" value="Incorrect email" client="1"/>
+		<phrase id="incorrectfield" value="Incorrect field" client="1"/>
+		<phrase id="incorrectfloat" value="Incorrect floating point number" client="1"/>
+		<phrase id="incorrectguid" value="Incorrect GUID" client="1"/>
+		<phrase id="incorrectinteger" value="Incorrect integer" client="1"/>
+		<phrase id="incorrectphone" value="Incorrect phone number" client="1"/>
+		<phrase id="incorrectregexp" value="Regular expression not matched" client="1"/>
+		<phrase id="incorrectrange" value="Number must be between %1 and %2" client="1"/>
+		<phrase id="incorrectssn" value="Incorrect social security number" client="1"/>
+		<phrase id="incorrecttime" value="Incorrect time (hh:mm:ss)" client="1"/>
+		<phrase id="incorrectzip" value="Incorrect ZIP code" client="1"/>
+		<phrase id="inlineaddlink" value="Inline Add"/>
+		<phrase id="inlinecopylink" value="Inline Copy" imageurl="phpimages/inlinecopy.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="inlineeditlink" value="Inline Edit" imageurl="phpimages/inlineedit.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="insertcancelled" value="Insert cancelled"/>
+		<phrase id="insertfailed" value="Insert failed" client="1"/>
+		<phrase id="insertlink" value="Insert" imageurl="phpimages/insert.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="insertsuccess" value="Insert succeeded"/>
+		<phrase id="invalidemail" value="Invalid Email"/>
+		<phrase id="invalidfield" value="Invalid Field"/>
+		<phrase id="invalidkeyvalue" value="Invalid key value"/>
+		<phrase id="invalidrecord" value="Invalid Record! Key is null" client="1"/>
+		<phrase id="invalidparameter" value="Invalid Parameter"/>
+		<phrase id="invalidpassword" value="Invalid Password"/>
+		<phrase id="invalidnewpassword" value="Invalid New Password"/>
+		<phrase id="invaliduidpwd" value="Incorrect user ID or password"/>
+		<phrase id="keep" value="Keep"/>
+		<phrase id="language" value="Language"/>
+		<phrase id="loading" value="Loading..." client="1"/>
+		<phrase id="login" value="Login"/>
+		<phrase id="logincancelled" value="Login cancelled"/>
+		<phrase id="loginpage" value="Login"/>
+		<phrase id="logout" value="Logout"/>
+		<phrase id="masterrecord" value="Master Record: "/>
+		<phrase id="maxfilesize" value="Max. file size (%s bytes) exceeded." client="1"/>
+		<phrase id="messageok" value="OK" client="1"/>
+		<phrase id="mismatchpassword" value="Mismatch Password" client="1"/>
+		<phrase id="missinglookuptablename" value="Missing lookup table name"/>
+		<phrase id="missingdisplayfieldname" value="Missing display field name"/>
+		<phrase id="missingdisplayfieldvalue" value="Missing display field value"/>
+		<phrase id="missinguserlevelid" value="Missing User Level ID"/>
+		<phrase id="missinguserlevelname" value="Missing User Level name"/>
+		<phrase id="mobilemenu" value="Menu"/>
+		<phrase id="multiplemasterdetails" value="Master/Detail"/>
+		<phrase id="new" value="New"/>
+		<phrase id="newpassword" value="New Password"/>
+		<phrase id="newvalue" value="New Value"/>
+		<phrase id="next" value="Next"/>
+		<phrase id="noaddrecord" value="No records to be added" client="1"/>
+		<phrase id="nofieldselected" value="No field selected for update" client="1"/>
+		<phrase id="nopermission" value="You do not have permission to access the page."/>
+		<phrase id="noaddpermission" value="You do not have permission to add the record."/>
+		<phrase id="nodeletepermission" value="You do not have permission to delete the record."/>
+		<phrase id="noeditpermission" value="You do not have permission to edit the record."/>
+		<phrase id="norecord" value="No records found"/>
+		<phrase id="norecordforkey" value="No record found for key = "/>
+		<phrase id="norecordselected" value="No records selected" client="1"/>
+		<phrase id="notablegenerated" value="No tables generated"/>
+		<phrase id="nouserlevel" value="No user level settings."/>
+		<phrase id="of" value="of"/>
+		<phrase id="old" value="Old"/>
+		<phrase id="oldpassword" value="Old Password"/>
+		<phrase id="optionalreadyexist" value="Option already exists"/>
+		<phrase id="page" value="Page"/>
+		<phrase id="pagerfirst" value="First"/>
+		<phrase id="pagerlast" value="Last"/>
+		<phrase id="pagernext" value="Next"/>
+		<phrase id="pagerprevious" value="Previous"/>
+		<phrase id="password" value="Password"/>
+		<phrase id="passwordrequest" value="Password Request"/>
+		<phrase id="passwordchanged" value="Password Changed"/>
+		<phrase id="passwordexpired" value="Password Expired. Please change password."/>
+		<phrase id="permission" value="Permissions"/>
+		<phrase id="permissionaddcopy" value="Add/Copy"/>
+		<phrase id="permissiondelete" value="Delete"/>
+		<phrase id="permissionedit" value="Edit"/>
+		<phrase id="permissionlistsearchview" value="List/Search/View"/>
+		<phrase id="permissionlist" value="List"/>
+		<phrase id="permissionsearch" value="Search"/>
+		<phrase id="permissionview" value="View"/>
+		<phrase id="pickdate" value="Pick a date"/>
+		<phrase id="pleaseselect" value="Please Select"/>
+		<phrase id="pleasewait" value="Please wait..." client="1"/>
+		<phrase id="primarykeyunspecified" value="Primary key unspecified"/>
+		<phrase id="printerfriendly" value="Printer Friendly" imageurl="phpimages/print.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="printerfriendlytext" value="Printer Friendly"/>
+		<phrase id="prev" value="Prev"/>
+		<phrase id="pwdemailsent" value="Password sent to your email"/>
+		<phrase id="resetpwdemailsent" value="The reset password email has been sent to you"/>
+		<phrase id="quicksearch" value="Quick Search"/>
+		<phrase id="quicksearchbtn" value="Search"/>
+		<phrase id="record" value="Records"/>
+		<phrase id="recordchangedbyotheruser" value="Data has been changed by other user. Click [Reload] to retrieve the changed data (your data in the form will be overwritten) or click [Overwrite] to overwrite the changed data."/>
+		<phrase id="recorddeleted" value="record(s) deleted"/>
+		<phrase id="recordinserted" value="record(s) inserted"/>
+		<phrase id="recordupdated" value="record(s) updated"/>
+		<phrase id="recordsperpage" value="Page Size"/>
+		<phrase id="register" value="Register"/>
+		<phrase id="registerbtn" value="Register"/>
+		<phrase id="registersuccess" value="Registration succeeded"/>
+		<phrase id="registersuccessactivate" value="Registration succeeded. An email has been sent to your email address, please click the link in the email to activate your account."/>
+		<phrase id="registerpage" value="Registration"/>
+		<phrase id="relatedrecordrequired" value="You cannot add or update a record because the foreign key value does not exist in the master table '%t'"/>
+		<phrase id="relatedrecordexists" value="You cannot delete a record because related records exist in the detail table '%t'"/>
+		<phrase id="reloadbtn" value="Reload"/>
+		<phrase id="reloadlink" value="Reload"/>
+		<phrase id="rememberme" value="Remember me"/>
+		<phrase id="remove" value="Remove"/>
+		<phrase id="replace" value="Replace"/>
+		<phrase id="report" value="Report"/>
+		<phrase id="requestpwdpage" value="Request Password"/>
+		<phrase id="reset" value="Reset"/>
+		<phrase id="resetsearch" value="Reset"/>
+		<phrase id="rptavg" value="Average"/>
+		<phrase id="rptdtlrec" value="Detail Records"/>
+		<phrase id="rptgrandtotal" value="Grand Total"/>
+		<phrase id="rptmax" value="Maximum"/>
+		<phrase id="rptmin" value="Minimum"/>
+		<phrase id="rptsum" value="Sum"/>
+		<phrase id="rptsumhead" value="Summary for"/>
+		<phrase id="saveusername" value="Save my user name"/>
+		<phrase id="search" value="Search"/>
+		<phrase id="sendemailbtn" value="Send"/>
+		<phrase id="sendemailsuccess" value="Email sent successfully" client="1"/>
+		<phrase id="sendpwd" value="Send"/>
+		<phrase id="sequencenumber" value="%s."/>
+		<phrase id="showall" value="Show all"/>
+		<phrase id="showhighlight" value="Show highlight" client="1"/>
+		<phrase id="srchlegend" value=""/>
+		<phrase id="table" value="TABLE"/>
+		<phrase id="tbltypetable" value="Table: "/>
+		<phrase id="tbltypeview" value="View: "/>
+		<phrase id="tbltypecustomview" value="Custom View: "/>
+		<phrase id="tbltypereport" value="Report: "/>
+		<phrase id="to" value="to"/>
+		<phrase id="total" value="Total"/>
+		<phrase id="unauthorizeduserid" value="The current user (%c) is not authorized to assign the user ID (%u)."/>
+		<phrase id="unauthorizedparentuserid" value="The current user (%c) is not authorized to assign the parent user ID (%p)."/>
+		<phrase id="unauthorizedmasteruserid" value="The current user (%c) is not authorized to insert the record. Master filter: %f"/>
+		<phrase id="unmatchedvalue" value="Value does not exist" imageurl="phpimages/warn.gif" imagewidth="16" imageheight="15"/>
+		<phrase id="update" value="Update"/>
+		<phrase id="updatebtn" value="Update"/>
+		<phrase id="updatecancelled" value="Update cancelled"/>
+		<phrase id="updatefailed" value="Update failed"/>
+		<phrase id="updatelink" value="Update" imageurl="phpimages/update.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="updateselectedlink" value="Update Selected Records"/>
+		<phrase id="updatesuccess" value="Update succeeded"/>
+		<phrase id="uploading" value="Uploading..." client="1"/>
+		<phrase id="uploadstart" value="Start" client="1"/>
+		<phrase id="uploadcancel" value="Cancel" client="1"/>
+		<phrase id="uploaddelete" value="Delete" client="1"/>
+		<phrase id="uploadoverwrite" value="Overwrite old file?" client="1"/>
+		<phrase id="uploaderrmsg1" value="The uploaded file exceeds the upload_max_filesize directive in php.ini"/>
+		<phrase id="uploaderrmsg2" value="The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form"/>
+		<phrase id="uploaderrmsg3" value="The uploaded file was only partially uploaded"/>
+		<phrase id="uploaderrmsg4" value="No file was uploaded"/>
+		<phrase id="uploaderrmsg6" value="Missing a temporary folder"/>
+		<phrase id="uploaderrmsg7" value="Failed to write file to disk"/>
+		<phrase id="uploaderrmsg8" value="A PHP extension stopped the file upload"/>
+		<phrase id="uploaderrmsgpostmaxsize" value="The uploaded file exceeds the post_max_size directive in php.ini"/>
+		<phrase id="uploaderrmsgmaxfilesize" value="File is too big"/>
+		<phrase id="uploaderrmsgminfilesize" value="File is too small"/>
+		<phrase id="uploaderrmsgacceptfiletypes" value="Filetype not allowed"/>
+		<phrase id="uploaderrmsgmaxnumberoffiles" value="Maximum number of files exceeded" client="1"/>
+		<phrase id="uploaderrmsgmaxwidth" value="Image exceeds maximum width"/>
+		<phrase id="uploaderrmsgminwidth" value="Image requires a minimum width"/>
+		<phrase id="uploaderrmsgmaxheight" value="Image exceeds maximum height"/>
+		<phrase id="uploaderrmsgminheight" value="Image requires a minimum height"/>
+		<phrase id="uploaderrmsgmaxfilelength" value="Total length of file names exceeds field length" client="1"/>
+		<phrase id="updatevalue" value="Update"/>
+		<phrase id="useremail" value="Email"/>
+		<phrase id="userexists" value="User already exists"/>
+		<phrase id="userlevel" value="User Level: "/>
+		<phrase id="userleveladministratorname" value="User level name for user level -1 must be 'Administrator'" client="1"/>
+		<phrase id="userlevelpermission" value="User Level Permissions"/>
+		<phrase id="userlevelidinteger" value="User Level ID must be integer" client="1"/>
+		<phrase id="userleveldefaultname" value="User level name for user level 0 must be 'Default'" client="1"/>
+		<phrase id="userlevelidincorrect" value="User defined User Level ID must be larger than 0" client="1"/>
+		<phrase id="userlevelnameincorrect" value="User defined User Level name cannot be 'Administrator' or 'Default'" client="1"/>
+		<phrase id="userloggedin" value="User '%u' already logged in!"/>
+		<phrase id="username" value="User Name"/>
+		<phrase id="userprofilecorrupted" value="User profile is corrupted. Please logout and login again"/>
+		<phrase id="view" value="View"/>
+		<phrase id="viewlink" value="View" imageurl="phpimages/view.gif" imagewidth="16" imageheight="16"/>
+		<phrase id="viewpageaddlink" value="Add"/>
+		<phrase id="viewpagecopylink" value="Copy"/>
+		<phrase id="viewpagedeletelink" value="Delete"/>
+		<phrase id="viewpagedetaillink" value=""/>
+		<phrase id="viewpageeditlink" value="Edit"/>
+		<phrase id="wrongfiletype" value="File type is not allowed." client="1"/>
+		<phrase id="tableorview" value="Tables"/>
+		<phrase id="=" value=""/>
+		<phrase id="&lt;&gt;" value="&lt;&gt;"/>
+		<phrase id="&lt;" value="&lt;"/>
+		<phrase id="&lt;=" value="&lt;="/>
+		<phrase id="&gt;" value="&gt;"/>
+		<phrase id="&gt;=" value="&gt;="/>
+		<phrase id="like" value="contains"/>
+		<phrase id="not like" value="not contains"/>
+		<phrase id="starts with" value="starts with"/>
+		<phrase id="ends with" value="ends with"/>
+		<phrase id="is null" value="is null"/>
+		<phrase id="is not null" value="is not null"/>
+		<phrase id="between" value="between"/>
+		<phrase id="and" value="and"/>
+		<phrase id="or" value="or"/>
+	</global>
+	<project><phrase id="bodytitle" value="myCMS"/>
+<phrase id="footertext" value="&amp;copy;2019 myCMS"/>
+<menu id="232"><phrase id="menutext" value="nextofkin"/>
+</menu>
+<menu id="233"><phrase id="menutext" value="simplewill assets tb"/>
+</menu>
+<menu id="234"><phrase id="menutext" value="simplewill overall asset"/>
+</menu>
+<menu id="231"><phrase id="menutext" value="executor tb"/>
+</menu>
+<menu id="228"><phrase id="menutext" value="beneficiary dump"/>
+</menu>
+<menu id="229"><phrase id="menutext" value="assets tb"/>
+</menu>
+<menu id="230"><phrase id="menutext" value="overall asset"/>
+</menu>
+<menu id="226"><phrase id="menutext" value="child tb"/>
+</menu>
+<menu id="227"><phrase id="menutext" value="children details"/>
+</menu>
+<menu id="156"><phrase id="menutext" value="witness tb"/>
+</menu>
+<menu id="154"><phrase id="menutext" value="humanresourcescontact"/>
+</menu>
+<menu id="155"><phrase id="menutext" value="identification tb"/>
+</menu>
+<menu id="142"><phrase id="menutext" value="trustee tb"/>
+</menu>
+<menu id="144"><phrase id="menutext" value="education beneficiary"/>
+</menu>
+<menu id="145"><phrase id="menutext" value="investment form"/>
+</menu>
+<menu id="148"><phrase id="menutext" value="reserve form"/>
+</menu>
+<menu id="152"><phrase id="menutext" value="sourceoffund"/>
+</menu>
+<menu id="153"><phrase id="menutext" value="trustdeed tb"/>
+</menu>
+<menu id="139"><phrase id="menutext" value="spouse tb"/>
+</menu>
+<menu id="1"><phrase id="menutext" value="adminusers"/>
+</menu>
+<menu id="2"><phrase id="menutext" value="banner ads"/>
+</menu>
+<menu id="3"><phrase id="menutext" value="content"/>
+</menu>
+<menu id="4"><phrase id="menutext" value="fileuploads"/>
+</menu>
+<menu id="7"><phrase id="menutext" value="layout"/>
+</menu>
+<menu id="8"><phrase id="menutext" value="news tb"/>
+</menu>
+<menu id="10"><phrase id="menutext" value="page cat"/>
+</menu>
+<menu id="13"><phrase id="menutext" value="testimonials"/>
+</menu>
+<menu id="14"><phrase id="menutext" value="Web Content"/>
+</menu>
+<menu id="20"><phrase id="menutext" value="Edit HomePage"/>
+</menu>
+<menu id="35"><phrase id="menutext" value="Web Pages"/>
+</menu>
+<menu id="21"><phrase id="menutext" value="Page Category"/>
+</menu>
+<menu id="11"><phrase id="menutext" value="Page Templates"/>
+</menu>
+<menu id="86"><phrase id="menutext" value="Management Team"/>
+</menu>
+<menu id="64"><phrase id="menutext" value="Add Category"/>
+</menu>
+<menu id="62"><phrase id="menutext" value="Board Of Directors"/>
+</menu>
+<menu id="63"><phrase id="menutext" value="Management"/>
+</menu>
+<menu id="89"><phrase id="menutext" value="Manage FAQs"/>
+</menu>
+<menu id="88"><phrase id="menutext" value="FAQs Category"/>
+</menu>
+<menu id="87"><phrase id="menutext" value="FAQs"/>
+</menu>
+<menu id="29"><phrase id="menutext" value="Gallery Photos"/>
+</menu>
+<menu id="60"><phrase id="menutext" value="Site Photos"/>
+</menu>
+<menu id="5"><phrase id="menutext" value="Gallery Categories"/>
+</menu>
+<menu id="61"><phrase id="menutext" value="Sub Categories"/>
+</menu>
+<menu id="59"><phrase id="menutext" value="Tags"/>
+</menu>
+<menu id="23"><phrase id="menutext" value="Manage Blog"/>
+</menu>
+<menu id="58"><phrase id="menutext" value="Blog Posts"/>
+</menu>
+<menu id="57"><phrase id="menutext" value="Blog Categories"/>
+</menu>
+<menu id="15"><phrase id="menutext" value="Addon Modules"/>
+</menu>
+<menu id="26"><phrase id="menutext" value="News Ticker"/>
+</menu>
+<menu id="27"><phrase id="menutext" value="Testimonials"/>
+</menu>
+<menu id="120"><phrase id="menutext" value="Downloadable Forms"/>
+</menu>
+<menu id="28"><phrase id="menutext" value="Image Uploader"/>
+</menu>
+<menu id="25"><phrase id="menutext" value="Banner Ads"/>
+</menu>
+<menu id="118"><phrase id="menutext" value="Manage Registered Users"/>
+</menu>
+<menu id="90"><phrase id="menutext" value="Registered Users"/>
+</menu>
+<menu id="225"><phrase id="menutext" value="Registered Users"/>
+</menu>
+<menu id="138"><phrase id="menutext" value="Personal Details"/>
+</menu>
+<menu id="119"><phrase id="menutext" value="Manage Process Flow"/>
+</menu>
+<menu id="137"><phrase id="menutext" value="View Submitted Forms"/>
+</menu>
+<menu id="149"><phrase id="menutext" value="Simple Will"/>
+</menu>
+<menu id="146"><phrase id="menutext" value="Premium Will"/>
+</menu>
+<menu id="143"><phrase id="menutext" value="Comprehensive Will"/>
+</menu>
+<menu id="147"><phrase id="menutext" value="Private Trust Form"/>
+</menu>
+<menu id="140"><phrase id="menutext" value="Education Trust Form"/>
+</menu>
+<menu id="150"><phrase id="menutext" value="Investment Trust Form"/>
+</menu>
+<menu id="151"><phrase id="menutext" value="Reserve Trust Form"/>
+</menu>
+<menu id="121"><phrase id="menutext" value="View Submitted Forms"/>
+</menu>
+<menu id="141"><phrase id="menutext" value="Payment Details"/>
+</menu>
+<menu id="54"><phrase id="menutext" value="Store Module"/>
+</menu>
+<menu id="39"><phrase id="menutext" value="Store Products"/>
+</menu>
+<menu id="55"><phrase id="menutext" value="Product Categories"/>
+</menu>
+<menu id="38"><phrase id="menutext" value="Orders"/>
+</menu>
+<menu id="37"><phrase id="menutext" value="Order Details"/>
+</menu>
+<menu id="56"><phrase id="menutext" value="Shipping Costs"/>
+</menu>
+<menu id="6"><phrase id="menutext" value="Gallery Photos"/>
+</menu>
+<menu id="36"><phrase id="menutext" value="Customers"/>
+</menu>
+<menu id="17"><phrase id="menutext" value="Manage Admin Users"/>
+</menu>
+<menu id="31"><phrase id="menutext" value="View Admin User"/>
+</menu>
+<menu id="18"><phrase id="menutext" value="Helpfile"/>
+</menu>
+<table id="adminusers"><phrase id="tblcaption" value="Admin Users"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="fullname"><phrase id="fldcaption" value="Full Name"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="Email Address"/>
+</field>
+<field id="username"><phrase id="fldcaption" value="Username"/>
+</field>
+<field id="password"><phrase id="fldcaption" value="Password"/>
+</field>
+<field id="lastlogin"><phrase id="fldcaption" value="Last login"/>
+</field>
+<field id="logincount"><phrase id="fldcaption" value="Login Count"/>
+</field>
+<field id="datecr"><phrase id="fldcaption" value="Date Created"/>
+</field>
+<field id="userlevel"><phrase id="fldcaption" value="User Level"/>
+</field>
+<field id="activated"><phrase id="fldcaption" value="Activated"/>
+<phrase id="fldtagvalue1" value="Y"/>
+<phrase id="fldtagcaption1" value="Y"/>
+<phrase id="fldtagvalue2" value="N"/>
+<phrase id="fldtagcaption2" value="N"/>
+</field>
+</table>
+<table id="banner_ads"><phrase id="tblcaption" value="Banner Ads"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="Name"/>
+</field>
+<field id="img"><phrase id="fldcaption" value="Banner"/>
+</field>
+<field id="href"><phrase id="fldcaption" value="Hyperlink"/>
+</field>
+<field id="uploads"><phrase id="fldcaption" value="Uploads"/>
+</field>
+<field id="keywords"><phrase id="fldcaption" value="Keywords"/>
+</field>
+<field id="rate_ord"><phrase id="fldcaption" value="Rating Order"/>
+<phrase id="fldtagvalue1" value="0"/>
+<phrase id="fldtagcaption1" value="0"/>
+<phrase id="fldtagvalue2" value="1"/>
+<phrase id="fldtagcaption2" value="1"/>
+<phrase id="fldtagvalue3" value="2"/>
+<phrase id="fldtagcaption3" value="2"/>
+<phrase id="fldtagvalue4" value="3"/>
+<phrase id="fldtagcaption4" value="3"/>
+<phrase id="fldtagvalue5" value="4"/>
+<phrase id="fldtagcaption5" value="4"/>
+<phrase id="fldtagvalue6" value="5"/>
+<phrase id="fldtagcaption6" value="5"/>
+<phrase id="fldtagvalue7" value="6"/>
+<phrase id="fldtagcaption7" value="6"/>
+<phrase id="fldtagvalue8" value="7"/>
+<phrase id="fldtagcaption8" value="7"/>
+<phrase id="fldtagvalue9" value="8"/>
+<phrase id="fldtagcaption9" value="8"/>
+<phrase id="fldtagvalue10" value="9"/>
+<phrase id="fldtagcaption10" value="9"/>
+<phrase id="fldtagvalue11" value="10"/>
+<phrase id="fldtagcaption11" value="10"/>
+</field>
+<field id="postd"><phrase id="fldcaption" value="Date Posted"/>
+</field>
+</table>
+<table id="content"><phrase id="tblcaption" value="Web Pages"/>
+<phrase id="tblpagecaption1" value="Content"/>
+<phrase id="tblpagecaption2" value="Page Settings"/>
+<phrase id="tblpagecaption3" value="Uploads"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="pg_name"><phrase id="fldcaption" value="Page Name"/>
+</field>
+<field id="pg_cat"><phrase id="fldcaption" value="Page Category"/>
+</field>
+<field id="content"><phrase id="fldcaption" value="Content"/>
+</field>
+<field id="pg_alias"><phrase id="fldcaption" value="Page Alias"/>
+</field>
+<field id="pg_type"><phrase id="fldcaption" value="Page Template"/>
+</field>
+<field id="pg_menu"><phrase id="fldcaption" value="Page Menu"/>
+</field>
+<field id="pg_title"><phrase id="fldcaption" value="Page Title"/>
+</field>
+<field id="keywords"><phrase id="fldcaption" value="Keywords"/>
+</field>
+<field id="pr_status"><phrase id="fldcaption" value="Page Status"/>
+<phrase id="fldtagvalue1" value="1"/>
+<phrase id="fldtagcaption1" value="Primary Page"/>
+<phrase id="fldtagvalue2" value="0"/>
+<phrase id="fldtagcaption2" value="Child Page"/>
+</field>
+<field id="pg_url"><phrase id="fldcaption" value="Page Include"/>
+</field>
+<field id="secured_st"><phrase id="fldcaption" value="Secured Status"/>
+<phrase id="fldtagvalue1" value="0"/>
+<phrase id="fldtagcaption1" value="Public"/>
+<phrase id="fldtagvalue2" value="1"/>
+<phrase id="fldtagcaption2" value="Secured"/>
+</field>
+<field id="rate_ord"><phrase id="fldcaption" value="Rating Order"/>
+<phrase id="fldtagvalue1" value="0"/>
+<phrase id="fldtagcaption1" value="0"/>
+<phrase id="fldtagvalue2" value="1"/>
+<phrase id="fldtagcaption2" value="1"/>
+<phrase id="fldtagvalue3" value="2"/>
+<phrase id="fldtagcaption3" value="2"/>
+<phrase id="fldtagvalue4" value="3"/>
+<phrase id="fldtagcaption4" value="3"/>
+<phrase id="fldtagvalue5" value="4"/>
+<phrase id="fldtagcaption5" value="4"/>
+<phrase id="fldtagvalue6" value="5"/>
+<phrase id="fldtagcaption6" value="5"/>
+<phrase id="fldtagvalue7" value="6"/>
+<phrase id="fldtagcaption7" value="6"/>
+<phrase id="fldtagvalue8" value="7"/>
+<phrase id="fldtagcaption8" value="7"/>
+<phrase id="fldtagvalue9" value="8"/>
+<phrase id="fldtagcaption9" value="8"/>
+<phrase id="fldtagvalue10" value="9"/>
+<phrase id="fldtagcaption10" value="9"/>
+<phrase id="fldtagvalue11" value="10"/>
+<phrase id="fldtagcaption11" value="10"/>
+</field>
+<field id="uploads"><phrase id="fldcaption" value="Uploads"/>
+</field>
+<field id="intro"><phrase id="fldcaption" value="Intro"/>
+</field>
+<field id="sidebar"><phrase id="fldcaption" value="Side Content"/>
+</field>
+<field id="postdate"><phrase id="fldcaption" value="Post Date"/>
+</field>
+<field id="img1"><phrase id="fldcaption" value="Image 1"/>
+</field>
+<field id="img2"><phrase id="fldcaption" value="Image 2"/>
+</field>
+<field id="creator"><phrase id="fldcaption" value="Publisher"/>
+</field>
+<field id="datep"><phrase id="fldcaption" value="Date Created"/>
+</field>
+</table>
+<table id="fileuploads"><phrase id="tblcaption" value="File Uploads"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="Name"/>
+</field>
+<field id="_upload"><phrase id="fldcaption" value="File Url"/>
+</field>
+<field id="datecr"><phrase id="fldcaption" value="Date Created"/>
+</field>
+</table>
+<table id="gallery_cats"><phrase id="tblcaption" value="Gallery Category"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="category"><phrase id="fldcaption" value="Gallery Name"/>
+</field>
+<field id="slug"><phrase id="fldcaption" value="Slug Name"/>
+</field>
+<field id="img"><phrase id="fldcaption" value="Album Picture"/>
+</field>
+</table>
+<table id="gallery_photos"><phrase id="tblcaption" value="Gallery Photos"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="cat"><phrase id="fldcaption" value="Gallery Category"/>
+</field>
+<field id="img"><phrase id="fldcaption" value="Photo"/>
+</field>
+<field id="title"><phrase id="fldcaption" value="Caption"/>
+</field>
+<field id="rate_ord"><phrase id="fldcaption" value="Rating Order"/>
+<phrase id="fldtagvalue1" value="0"/>
+<phrase id="fldtagcaption1" value="0"/>
+<phrase id="fldtagvalue2" value="1"/>
+<phrase id="fldtagcaption2" value="1"/>
+<phrase id="fldtagvalue3" value="2"/>
+<phrase id="fldtagcaption3" value="2"/>
+<phrase id="fldtagvalue4" value="3"/>
+<phrase id="fldtagcaption4" value="3"/>
+<phrase id="fldtagvalue5" value="4"/>
+<phrase id="fldtagcaption5" value="4"/>
+<phrase id="fldtagvalue6" value="5"/>
+<phrase id="fldtagcaption6" value="5"/>
+<phrase id="fldtagvalue7" value="6"/>
+<phrase id="fldtagcaption7" value="6"/>
+<phrase id="fldtagvalue8" value="7"/>
+<phrase id="fldtagcaption8" value="7"/>
+<phrase id="fldtagvalue9" value="8"/>
+<phrase id="fldtagcaption9" value="8"/>
+<phrase id="fldtagvalue10" value="9"/>
+<phrase id="fldtagcaption10" value="9"/>
+<phrase id="fldtagvalue11" value="10"/>
+<phrase id="fldtagcaption11" value="10"/>
+</field>
+<field id="datep"><phrase id="fldcaption" value="Date Posted"/>
+</field>
+<field id="descrption"><phrase id="fldcaption" value="descrption"/>
+</field>
+<field id="slug"><phrase id="fldcaption" value="slug"/>
+</field>
+</table>
+<table id="layout"><phrase id="tblcaption" value="Content Grid"/>
+<phrase id="tblpagecaption1" value="Head Grid"/>
+<phrase id="tblpagecaption2" value="Slide &amp; Navigation"/>
+<phrase id="tblpagecaption3" value="Home Grid"/>
+<phrase id="tblpagecaption4" value="Footer Grid"/>
+<phrase id="tblpagecaption5" value="Contact Grid"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="logo"><phrase id="fldcaption" value="Website Logo"/>
+</field>
+<field id="url"><phrase id="fldcaption" value="Website URL"/>
+</field>
+<field id="meta2dtitle"><phrase id="fldcaption" value="Meta Title"/>
+</field>
+<field id="meta2dkeywords"><phrase id="fldcaption" value="Meta Keyword"/>
+</field>
+<field id="meta2ddescp"><phrase id="fldcaption" value="Meta Description"/>
+</field>
+<field id="top2dl"><phrase id="fldcaption" value="Top Left One"/>
+</field>
+<field id="top2dr"><phrase id="fldcaption" value="Top Left Two"/>
+</field>
+<field id="head2dl"><phrase id="fldcaption" value="Top Right One"/>
+</field>
+<field id="head2dr"><phrase id="fldcaption" value="Top Right Two"/>
+</field>
+<field id="slide1"><phrase id="fldcaption" value="Slide 1"/>
+</field>
+<field id="slide2"><phrase id="fldcaption" value="Slide 2"/>
+</field>
+<field id="slide3"><phrase id="fldcaption" value="Slide 3"/>
+</field>
+<field id="slide4"><phrase id="fldcaption" value="Slide 4"/>
+</field>
+<field id="slide5"><phrase id="fldcaption" value="Slide 5"/>
+</field>
+<field id="slide6"><phrase id="fldcaption" value="Slide 6"/>
+</field>
+<field id="nav2dtext"><phrase id="fldcaption" value="Navigation Grid"/>
+</field>
+<field id="slide2dbox"><phrase id="fldcaption" value="Slider Grid"/>
+</field>
+<field id="custom2dcss"><phrase id="fldcaption" value="Custom CSS"/>
+</field>
+<field id="home2dcaption1"><phrase id="fldcaption" value="Home Caption 1"/>
+</field>
+<field id="home2dtext1"><phrase id="fldcaption" value="Home Grid 1"/>
+</field>
+<field id="home2dcaption2"><phrase id="fldcaption" value="Home Caption 2"/>
+</field>
+<field id="home2dtext2"><phrase id="fldcaption" value="Home Grid 2"/>
+</field>
+<field id="home2dcaption3"><phrase id="fldcaption" value="Home Caption 3"/>
+</field>
+<field id="home2dtext3"><phrase id="fldcaption" value="Home Grid 3"/>
+</field>
+<field id="home2dcaption4"><phrase id="fldcaption" value="Home Caption 4"/>
+</field>
+<field id="home2dtext4"><phrase id="fldcaption" value="Home Grid 4"/>
+</field>
+<field id="home2dcaption5"><phrase id="fldcaption" value="Home Caption 5"/>
+</field>
+<field id="home2dtext5"><phrase id="fldcaption" value="Home Grid 5"/>
+</field>
+<field id="home2dcaption6"><phrase id="fldcaption" value="Home Caption 6"/>
+</field>
+<field id="home2dtext6"><phrase id="fldcaption" value="Home Grid 6"/>
+</field>
+<field id="footer2d1"><phrase id="fldcaption" value="Copyright"/>
+</field>
+<field id="footer2d2"><phrase id="fldcaption" value="Social Icon 1"/>
+</field>
+<field id="footer2d3"><phrase id="fldcaption" value="Social Icon 2"/>
+</field>
+<field id="footer2d4"><phrase id="fldcaption" value="Social Icon 3"/>
+</field>
+<field id="base2dl"><phrase id="fldcaption" value="Base Grid 1"/>
+</field>
+<field id="base2dr"><phrase id="fldcaption" value="Base Grid 2"/>
+</field>
+<field id="contact2demail"><phrase id="fldcaption" value="Contact Email"/>
+</field>
+<field id="contact2dtext1"><phrase id="fldcaption" value="Contact Text Grid 1"/>
+</field>
+<field id="contact2dtext2"><phrase id="fldcaption" value="Contact Text Grid 2"/>
+</field>
+<field id="contact2dtext3"><phrase id="fldcaption" value="Contact Text Grid 3"/>
+</field>
+<field id="contact2dtext4"><phrase id="fldcaption" value="Contact Text Grid 4"/>
+</field>
+<field id="google2dmap"><phrase id="fldcaption" value="google map"/>
+</field>
+<field id="fb2dlikebox"><phrase id="fldcaption" value="fb likebox"/>
+</field>
+</table>
+<table id="news_tb"><phrase id="tblcaption" value="News Ticker"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="title"><phrase id="fldcaption" value="Title"/>
+</field>
+<field id="content"><phrase id="fldcaption" value="Content"/>
+</field>
+<field id="postdate"><phrase id="fldcaption" value="Posting Date"/>
+</field>
+<field id="img"><phrase id="fldcaption" value="Image"/>
+</field>
+<field id="pg_url"><phrase id="fldcaption" value="Page Url"/>
+</field>
+<field id="rate_ord"><phrase id="fldcaption" value="Rating Order"/>
+<phrase id="fldtagvalue1" value="0"/>
+<phrase id="fldtagcaption1" value="0"/>
+<phrase id="fldtagvalue2" value="1"/>
+<phrase id="fldtagcaption2" value="1"/>
+<phrase id="fldtagvalue3" value="2"/>
+<phrase id="fldtagcaption3" value="2"/>
+<phrase id="fldtagvalue4" value="3"/>
+<phrase id="fldtagcaption4" value="3"/>
+<phrase id="fldtagvalue5" value="4"/>
+<phrase id="fldtagcaption5" value="4"/>
+<phrase id="fldtagvalue6" value="5"/>
+<phrase id="fldtagcaption6" value="5"/>
+<phrase id="fldtagvalue7" value="6"/>
+<phrase id="fldtagcaption7" value="6"/>
+<phrase id="fldtagvalue8" value="7"/>
+<phrase id="fldtagcaption8" value="7"/>
+<phrase id="fldtagvalue9" value="8"/>
+<phrase id="fldtagcaption9" value="8"/>
+<phrase id="fldtagvalue10" value="9"/>
+<phrase id="fldtagcaption10" value="9"/>
+<phrase id="fldtagvalue11" value="10"/>
+<phrase id="fldtagcaption11" value="10"/>
+</field>
+<field id="datep"><phrase id="fldcaption" value="Date Posted"/>
+</field>
+<field id="venue"><phrase id="fldcaption" value="venue"/>
+</field>
+<field id="time"><phrase id="fldcaption" value="time"/>
+</field>
+</table>
+<table id="page_cat"><phrase id="tblcaption" value="Page Category"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="pg_cat"><phrase id="fldcaption" value="Category"/>
+</field>
+</table>
+<table id="page_template"><phrase id="tblcaption" value="Page Template"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="Name"/>
+</field>
+</table>
+<table id="testimonials"><phrase id="tblcaption" value="Testimonials"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="content"><phrase id="fldcaption" value="Content"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="Name"/>
+</field>
+<field id="rate_ord"><phrase id="fldcaption" value="Rating Order"/>
+<phrase id="fldtagvalue1" value="0"/>
+<phrase id="fldtagcaption1" value="0"/>
+<phrase id="fldtagvalue2" value="1"/>
+<phrase id="fldtagcaption2" value="1"/>
+<phrase id="fldtagvalue3" value="2"/>
+<phrase id="fldtagcaption3" value="2"/>
+<phrase id="fldtagvalue4" value="3"/>
+<phrase id="fldtagcaption4" value="3"/>
+<phrase id="fldtagvalue5" value="4"/>
+<phrase id="fldtagcaption5" value="4"/>
+<phrase id="fldtagvalue6" value="5"/>
+<phrase id="fldtagcaption6" value="5"/>
+<phrase id="fldtagvalue7" value="6"/>
+<phrase id="fldtagcaption7" value="6"/>
+<phrase id="fldtagvalue8" value="7"/>
+<phrase id="fldtagcaption8" value="7"/>
+<phrase id="fldtagvalue9" value="8"/>
+<phrase id="fldtagcaption9" value="8"/>
+<phrase id="fldtagvalue10" value="9"/>
+<phrase id="fldtagcaption10" value="9"/>
+<phrase id="fldtagvalue11" value="10"/>
+<phrase id="fldtagcaption11" value="10"/>
+</field>
+<field id="datep"><phrase id="fldcaption" value="Date Post"/>
+</field>
+</table>
+<table id="customers"><phrase id="tblcaption" value="Registered Customers"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="Name"/>
+</field>
+<field id="lname"><phrase id="fldcaption" value="Last Name"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="Email"/>
+</field>
+<field id="password"><phrase id="fldcaption" value="Password"/>
+</field>
+<field id="address"><phrase id="fldcaption" value="Address"/>
+</field>
+<field id="phone"><phrase id="fldcaption" value="Phone"/>
+</field>
+<field id="city"><phrase id="fldcaption" value="City"/>
+</field>
+<field id="state"><phrase id="fldcaption" value="State"/>
+</field>
+<field id="country"><phrase id="fldcaption" value="Country"/>
+</field>
+<field id="datereg"><phrase id="fldcaption" value="Date Registered"/>
+</field>
+<field id="deliveryopt"><phrase id="fldcaption" value="deliveryopt"/>
+</field>
+<field id="paymentopt"><phrase id="fldcaption" value="paymentopt"/>
+</field>
+</table>
+<table id="order_detail"><phrase id="tblcaption" value="Order Details"/>
+<field id="orderid"><phrase id="fldcaption" value="Order ID"/>
+</field>
+<field id="productid"><phrase id="fldcaption" value="Product ID"/>
+</field>
+<field id="quantity"><phrase id="fldcaption" value="Quantity"/>
+</field>
+<field id="price"><phrase id="fldcaption" value="Price"/>
+</field>
+<field id="id"><phrase id="fldcaption" value="id"/>
+</field>
+<field id="details"><phrase id="fldcaption" value="details"/>
+</field>
+</table>
+<table id="orders"><phrase id="tblcaption" value="Orders"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="customerid"><phrase id="fldcaption" value="Customer ID"/>
+</field>
+<field id="ship"><phrase id="fldcaption" value="Shipping Cost"/>
+</field>
+<field id="total"><phrase id="fldcaption" value="Total Cost"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="Status"/>
+<phrase id="fldtagvalue1" value="0"/>
+<phrase id="fldtagcaption1" value="Pending"/>
+<phrase id="fldtagvalue2" value="1"/>
+<phrase id="fldtagcaption2" value="Approved"/>
+</field>
+<field id="date"><phrase id="fldcaption" value="Date Ordered"/>
+</field>
+</table>
+<table id="products"><phrase id="tblcaption" value="Listed Products"/>
+<phrase id="tblpagecaption1" value="Product Info"/>
+<phrase id="tblpagecaption2" value="Photos"/>
+<phrase id="tblpagecaption3" value="Tags"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="price"><phrase id="fldcaption" value="Price"/>
+</field>
+<field id="img2"><phrase id="fldcaption" value="Photo 2"/>
+</field>
+<field id="img3"><phrase id="fldcaption" value="Photo 3"/>
+</field>
+<field id="img4"><phrase id="fldcaption" value="Photo 4"/>
+</field>
+<field id="rate_ord"><phrase id="fldcaption" value="Rating Order"/>
+<phrase id="fldtagvalue1" value="0"/>
+<phrase id="fldtagcaption1" value="0"/>
+<phrase id="fldtagvalue2" value="1"/>
+<phrase id="fldtagcaption2" value="1"/>
+<phrase id="fldtagvalue3" value="2"/>
+<phrase id="fldtagcaption3" value="2"/>
+<phrase id="fldtagvalue4" value="3"/>
+<phrase id="fldtagcaption4" value="3"/>
+<phrase id="fldtagvalue5" value="4"/>
+<phrase id="fldtagcaption5" value="4"/>
+<phrase id="fldtagvalue6" value="5"/>
+<phrase id="fldtagcaption6" value="5"/>
+<phrase id="fldtagvalue7" value="6"/>
+<phrase id="fldtagcaption7" value="6"/>
+<phrase id="fldtagvalue8" value="7"/>
+<phrase id="fldtagcaption8" value="7"/>
+<phrase id="fldtagvalue9" value="8"/>
+<phrase id="fldtagcaption9" value="8"/>
+<phrase id="fldtagvalue10" value="9"/>
+<phrase id="fldtagcaption10" value="9"/>
+<phrase id="fldtagvalue11" value="10"/>
+<phrase id="fldtagcaption11" value="10"/>
+</field>
+<field id="datep"><phrase id="fldcaption" value="Date Created"/>
+</field>
+<field id="oldprice"><phrase id="fldcaption" value="oldprice"/>
+</field>
+<field id="product_code"><phrase id="fldcaption" value="product code"/>
+</field>
+<field id="product_name"><phrase id="fldcaption" value="product name"/>
+</field>
+<field id="product_desc"><phrase id="fldcaption" value="product desc"/>
+</field>
+<field id="product_img_name"><phrase id="fldcaption" value="product img name"/>
+</field>
+<field id="img1"><phrase id="fldcaption" value="img 1"/>
+</field>
+<field id="cat"><phrase id="fldcaption" value="cat"/>
+</field>
+<field id="sized"><phrase id="fldcaption" value="sized"/>
+</field>
+<field id="subcat"><phrase id="fldcaption" value="subcat"/>
+</field>
+<field id="sales_status"><phrase id="fldcaption" value="sales status"/>
+<phrase id="fldtagvalue1" value="0"/>
+<phrase id="fldtagcaption1" value="0"/>
+<phrase id="fldtagvalue2" value="1"/>
+<phrase id="fldtagcaption2" value="1"/>
+</field>
+</table>
+<table id="product_cats"><phrase id="tblcaption" value="Shipping Categories"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="Name"/>
+</field>
+<field id="category"><phrase id="fldcaption" value="category"/>
+</field>
+<field id="slug"><phrase id="fldcaption" value="slug"/>
+</field>
+</table>
+<table id="shipping_cats"><phrase id="tblcaption" value="Products"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="Name"/>
+</field>
+<field id="amount"><phrase id="fldcaption" value="Amount"/>
+</field>
+</table>
+<table id="gallery_subcat"><phrase id="tblcaption" value="Sub Categories"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="category"><phrase id="fldcaption" value="Category"/>
+</field>
+<field id="subcat"><phrase id="fldcaption" value="Sub Categpry"/>
+</field>
+</table>
+<table id="pa_blog_cats"><phrase id="tblcaption" value="pa blog cats"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="Name"/>
+</field>
+</table>
+<table id="pa_blog_posts"><phrase id="tblcaption" value="pa blog posts"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+</field>
+<field id="category"><phrase id="fldcaption" value="category"/>
+</field>
+<field id="publish_date"><phrase id="fldcaption" value="publish date"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="status"/>
+</field>
+<field id="post_img"><phrase id="fldcaption" value="post img"/>
+</field>
+<field id="post_title"><phrase id="fldcaption" value="post title"/>
+</field>
+<field id="post_summ"><phrase id="fldcaption" value="post summ"/>
+</field>
+<field id="post_text"><phrase id="fldcaption" value="post text"/>
+</field>
+<field id="post_comments"><phrase id="fldcaption" value="post comments"/>
+</field>
+<field id="reviews"><phrase id="fldcaption" value="reviews"/>
+</field>
+<field id="poster"><phrase id="fldcaption" value="poster"/>
+</field>
+<field id="rate_ord"><phrase id="fldcaption" value="rate ord"/>
+<phrase id="fldtagvalue1" value="0"/>
+<phrase id="fldtagcaption1" value="0"/>
+<phrase id="fldtagvalue2" value="1"/>
+<phrase id="fldtagcaption2" value="1"/>
+<phrase id="fldtagvalue3" value="2"/>
+<phrase id="fldtagcaption3" value="2"/>
+<phrase id="fldtagvalue4" value="3"/>
+<phrase id="fldtagcaption4" value="3"/>
+<phrase id="fldtagvalue5" value="4"/>
+<phrase id="fldtagcaption5" value="4"/>
+<phrase id="fldtagvalue6" value="5"/>
+<phrase id="fldtagcaption6" value="5"/>
+<phrase id="fldtagvalue7" value="6"/>
+<phrase id="fldtagcaption7" value="6"/>
+<phrase id="fldtagvalue8" value="7"/>
+<phrase id="fldtagcaption8" value="7"/>
+<phrase id="fldtagvalue9" value="8"/>
+<phrase id="fldtagcaption9" value="8"/>
+<phrase id="fldtagvalue10" value="9"/>
+<phrase id="fldtagcaption10" value="9"/>
+<phrase id="fldtagvalue11" value="10"/>
+<phrase id="fldtagcaption11" value="10"/>
+</field>
+<field id="datep"><phrase id="fldcaption" value="datep"/>
+</field>
+</table>
+<table id="photos"><phrase id="tblcaption" value="Photos "/>
+<phrase id="tblpagecaption1" value="Basic Info"/>
+<phrase id="tblpagecaption2" value="Additional Info"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="img"><phrase id="fldcaption" value="Photo"/>
+</field>
+<field id="uid"><phrase id="fldcaption" value="UID"/>
+</field>
+<field id="cat"><phrase id="fldcaption" value="Category"/>
+</field>
+<field id="sub"><phrase id="fldcaption" value="Sub Category"/>
+</field>
+<field id="title"><phrase id="fldcaption" value="Caption"/>
+</field>
+<field id="descp"><phrase id="fldcaption" value="Details"/>
+</field>
+<field id="location"><phrase id="fldcaption" value="Location"/>
+</field>
+<field id="datetaken"><phrase id="fldcaption" value="Date Taken"/>
+</field>
+<field id="tags"><phrase id="fldcaption" value="Tags"/>
+</field>
+<field id="views"><phrase id="fldcaption" value="Page Views"/>
+</field>
+<field id="photoby"><phrase id="fldcaption" value="Photographer"/>
+</field>
+<field id="active"><phrase id="fldcaption" value="Active Status"/>
+<phrase id="fldtagvalue1" value="0"/>
+<phrase id="fldtagcaption1" value="Disable"/>
+<phrase id="fldtagvalue2" value="1"/>
+<phrase id="fldtagcaption2" value="Visible"/>
+</field>
+<field id="featured"><phrase id="fldcaption" value="Featured Status"/>
+<phrase id="fldtagvalue1" value="0"/>
+<phrase id="fldtagcaption1" value="No"/>
+<phrase id="fldtagvalue2" value="1"/>
+<phrase id="fldtagcaption2" value="Yes"/>
+</field>
+<field id="rate_ord"><phrase id="fldcaption" value="Rating Order"/>
+<phrase id="fldtagvalue1" value="0"/>
+<phrase id="fldtagcaption1" value="0"/>
+<phrase id="fldtagvalue2" value="1"/>
+<phrase id="fldtagcaption2" value="1"/>
+<phrase id="fldtagvalue3" value="2"/>
+<phrase id="fldtagcaption3" value="2"/>
+<phrase id="fldtagvalue4" value="3"/>
+<phrase id="fldtagcaption4" value="3"/>
+<phrase id="fldtagvalue5" value="4"/>
+<phrase id="fldtagcaption5" value="4"/>
+<phrase id="fldtagvalue6" value="5"/>
+<phrase id="fldtagcaption6" value="5"/>
+<phrase id="fldtagvalue7" value="6"/>
+<phrase id="fldtagcaption7" value="6"/>
+<phrase id="fldtagvalue8" value="7"/>
+<phrase id="fldtagcaption8" value="7"/>
+<phrase id="fldtagvalue9" value="8"/>
+<phrase id="fldtagcaption9" value="8"/>
+<phrase id="fldtagvalue10" value="9"/>
+<phrase id="fldtagcaption10" value="9"/>
+<phrase id="fldtagvalue11" value="10"/>
+<phrase id="fldtagcaption11" value="10"/>
+</field>
+<field id="datep"><phrase id="fldcaption" value="Date"/>
+</field>
+</table>
+<table id="tags"><phrase id="tblcaption" value="tags"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+</field>
+<field id="tag"><phrase id="fldcaption" value="tag"/>
+</field>
+</table>
+<table id="users"><phrase id="tblcaption" value="Registered Users"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="oauth_provider"><phrase id="fldcaption" value="Oauth Provider"/>
+</field>
+<field id="oauth_uid"><phrase id="fldcaption" value="Oauth Uid"/>
+</field>
+<field id="fname"><phrase id="fldcaption" value="First Name"/>
+</field>
+<field id="lname"><phrase id="fldcaption" value="Last Name"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="Email Address"/>
+</field>
+<field id="phone"><phrase id="fldcaption" value="Phone Number"/>
+</field>
+<field id="password"><phrase id="fldcaption" value="Password"/>
+</field>
+<field id="state"><phrase id="fldcaption" value="State"/>
+</field>
+<field id="country"><phrase id="fldcaption" value="Country"/>
+</field>
+<field id="gender"><phrase id="fldcaption" value="Gender"/>
+</field>
+<field id="locale"><phrase id="fldcaption" value="Locality"/>
+</field>
+<field id="picture"><phrase id="fldcaption" value="Picture"/>
+</field>
+<field id="img"><phrase id="fldcaption" value="Image"/>
+</field>
+<field id="active"><phrase id="fldcaption" value="Active"/>
+<phrase id="fldtagvalue1" value="0"/>
+<phrase id="fldtagcaption1" value="0"/>
+</field>
+<field id="created"><phrase id="fldcaption" value="Date Created"/>
+</field>
+<field id="modified"><phrase id="fldcaption" value="Date Modified"/>
+</field>
+</table>
+<table id="academy_year"/>
+<table id="buy_unit"/>
+<table id="careers"/>
+<table id="clients"/>
+<table id="countries"/>
+<table id="custom_signatures"/>
+<table id="e_rates"/>
+<table id="email_template"/>
+<table id="events"/>
+<table id="faq"><phrase id="tblcaption" value="FAQs"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="title"><phrase id="fldcaption" value="Title"/>
+</field>
+<field id="content"><phrase id="fldcaption" value="Content"/>
+</field>
+<field id="category"><phrase id="fldcaption" value="Category"/>
+</field>
+<field id="rate_ord"><phrase id="fldcaption" value="Rating Order"/>
+<phrase id="fldtagvalue1" value="0"/>
+<phrase id="fldtagcaption1" value="0"/>
+<phrase id="fldtagvalue2" value="1"/>
+<phrase id="fldtagcaption2" value="1"/>
+<phrase id="fldtagvalue3" value="2"/>
+<phrase id="fldtagcaption3" value="2"/>
+<phrase id="fldtagvalue4" value="3"/>
+<phrase id="fldtagcaption4" value="3"/>
+<phrase id="fldtagvalue5" value="4"/>
+<phrase id="fldtagcaption5" value="4"/>
+<phrase id="fldtagvalue6" value="5"/>
+<phrase id="fldtagcaption6" value="5"/>
+<phrase id="fldtagvalue7" value="6"/>
+<phrase id="fldtagcaption7" value="6"/>
+<phrase id="fldtagvalue8" value="7"/>
+<phrase id="fldtagcaption8" value="7"/>
+<phrase id="fldtagvalue9" value="8"/>
+<phrase id="fldtagcaption9" value="8"/>
+<phrase id="fldtagvalue10" value="9"/>
+<phrase id="fldtagcaption10" value="9"/>
+<phrase id="fldtagvalue11" value="10"/>
+<phrase id="fldtagcaption11" value="10"/>
+</field>
+<field id="datep"><phrase id="fldcaption" value="Date Created"/>
+</field>
+</table>
+<table id="featured_products"/>
+<table id="hour_tb"/>
+<table id="hproducts"/>
+<table id="ipolicify"/>
+<table id="menudropdown"/>
+<table id="navmenu"/>
+<table id="newsletter"/>
+<table id="notification"/>
+<table id="policyhub"/>
+<table id="policyhub_cat"/>
+<table id="product_options"/>
+<table id="product_subcategory"/>
+<table id="product_subcategory2"/>
+<table id="products0"/>
+<table id="products1"/>
+<table id="products2"/>
+<table id="project"/>
+<table id="project_cats"/>
+<table id="publications_tb"/>
+<table id="registered_users"/>
+<table id="sell_unit"/>
+<table id="signature_category"/>
+<table id="signatures"/>
+<table id="size_tb"/>
+<table id="spring_parents"/>
+<table id="spring_students"/>
+<table id="statepolicy_tb"/>
+<table id="states"/>
+<table id="t_adminusers"/>
+<table id="t_blog_cats"/>
+<table id="t_blog_posts"/>
+<table id="usersproject"/>
+<table id="zignature"/>
+<table id="directors"><phrase id="tblcaption" value="Board Of Directors"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="Name"/>
+</field>
+<field id="position"><phrase id="fldcaption" value="Position"/>
+</field>
+<field id="image"><phrase id="fldcaption" value="Photo"/>
+</field>
+<field id="descrp"><phrase id="fldcaption" value="Description"/>
+</field>
+<field id="category"><phrase id="fldcaption" value="Category"/>
+</field>
+<field id="slug"><phrase id="fldcaption" value="Slug"/>
+</field>
+<field id="rate_ord"><phrase id="fldcaption" value="Rating Order"/>
+<phrase id="fldtagvalue1" value="0"/>
+<phrase id="fldtagcaption1" value="0"/>
+<phrase id="fldtagvalue2" value="1"/>
+<phrase id="fldtagcaption2" value="1"/>
+<phrase id="fldtagvalue3" value="2"/>
+<phrase id="fldtagcaption3" value="2"/>
+<phrase id="fldtagvalue4" value="3"/>
+<phrase id="fldtagcaption4" value="3"/>
+<phrase id="fldtagvalue5" value="4"/>
+<phrase id="fldtagcaption5" value="4"/>
+<phrase id="fldtagvalue6" value="5"/>
+<phrase id="fldtagcaption6" value="5"/>
+<phrase id="fldtagvalue7" value="6"/>
+<phrase id="fldtagcaption7" value="6"/>
+<phrase id="fldtagvalue8" value="7"/>
+<phrase id="fldtagcaption8" value="7"/>
+<phrase id="fldtagvalue9" value="8"/>
+<phrase id="fldtagcaption9" value="8"/>
+<phrase id="fldtagvalue10" value="9"/>
+<phrase id="fldtagcaption10" value="9"/>
+<phrase id="fldtagvalue11" value="10"/>
+<phrase id="fldtagcaption11" value="10"/>
+</field>
+<field id="datecreated"><phrase id="fldcaption" value="datecreated"/>
+</field>
+</table>
+<table id="management"><phrase id="tblcaption" value="Management"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="Name"/>
+</field>
+<field id="position"><phrase id="fldcaption" value="Position"/>
+</field>
+<field id="image"><phrase id="fldcaption" value="Photo"/>
+</field>
+<field id="descrp"><phrase id="fldcaption" value="Description"/>
+</field>
+<field id="slug"><phrase id="fldcaption" value="Slug"/>
+</field>
+<field id="category"><phrase id="fldcaption" value="Category"/>
+</field>
+<field id="rate_ord"><phrase id="fldcaption" value="Rating Order"/>
+<phrase id="fldtagvalue1" value="0"/>
+<phrase id="fldtagcaption1" value="0"/>
+<phrase id="fldtagvalue2" value="1"/>
+<phrase id="fldtagcaption2" value="1"/>
+<phrase id="fldtagvalue3" value="2"/>
+<phrase id="fldtagcaption3" value="2"/>
+<phrase id="fldtagvalue4" value="3"/>
+<phrase id="fldtagcaption4" value="3"/>
+<phrase id="fldtagvalue5" value="4"/>
+<phrase id="fldtagcaption5" value="4"/>
+<phrase id="fldtagvalue6" value="5"/>
+<phrase id="fldtagcaption6" value="5"/>
+<phrase id="fldtagvalue7" value="6"/>
+<phrase id="fldtagcaption7" value="6"/>
+<phrase id="fldtagvalue8" value="7"/>
+<phrase id="fldtagcaption8" value="7"/>
+<phrase id="fldtagvalue9" value="8"/>
+<phrase id="fldtagcaption9" value="8"/>
+<phrase id="fldtagvalue10" value="9"/>
+<phrase id="fldtagcaption10" value="9"/>
+<phrase id="fldtagvalue11" value="10"/>
+<phrase id="fldtagcaption11" value="10"/>
+</field>
+<field id="datecreated"><phrase id="fldcaption" value="datecreated"/>
+</field>
+</table>
+<table id="mgt_cat"><phrase id="tblcaption" value="Management Category"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="category"><phrase id="fldcaption" value="Category"/>
+</field>
+</table>
+<table id="faq_cat"><phrase id="tblcaption" value="FAQs Category"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="category"><phrase id="fldcaption" value="Category"/>
+</field>
+</table>
+<table id="addinfo_tb"/>
+<table id="alt_beneficiary"/>
+<table id="assets_legacy"/>
+<table id="assets_tb"><phrase id="tblcaption" value="Assets"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="uid"><phrase id="fldcaption" value="UID"/>
+</field>
+<field id="asset_type"><phrase id="fldcaption" value="Asset Type"/>
+</field>
+<field id="property_location"><phrase id="fldcaption" value="Location of Property"/>
+</field>
+<field id="property_type"><phrase id="fldcaption" value="Type of Property"/>
+</field>
+<field id="property_registered"><phrase id="fldcaption" value="How Property is Registered"/>
+</field>
+<field id="shares_company"><phrase id="fldcaption" value="Company"/>
+</field>
+<field id="shares_volume"><phrase id="fldcaption" value="Shares/ Volume"/>
+</field>
+<field id="shares_percent"><phrase id="fldcaption" value="Percentage of Shareholdings"/>
+</field>
+<field id="shares_cscs"><phrase id="fldcaption" value="CSCS No."/>
+</field>
+<field id="shares_chn"><phrase id="fldcaption" value="Clearing House No."/>
+</field>
+<field id="insurance_company"><phrase id="fldcaption" value="Insurance Company"/>
+</field>
+<field id="insurance_type"><phrase id="fldcaption" value="Type of Policy"/>
+</field>
+<field id="insurance_owner"><phrase id="fldcaption" value="Name of Policy Holder"/>
+</field>
+<field id="insurance_facevalue"><phrase id="fldcaption" value="Face Value"/>
+</field>
+<field id="bvn"><phrase id="fldcaption" value="BVN"/>
+</field>
+<field id="account_name"><phrase id="fldcaption" value="Account Name"/>
+</field>
+<field id="account_no"><phrase id="fldcaption" value="Account Number"/>
+</field>
+<field id="bankname"><phrase id="fldcaption" value="Bank Name"/>
+</field>
+<field id="accounttype"><phrase id="fldcaption" value="Account Type"/>
+</field>
+<field id="pension_name"><phrase id="fldcaption" value="Name of Pension Provider"/>
+</field>
+<field id="pension_owner"><phrase id="fldcaption" value="Name of Pension Holder"/>
+</field>
+<field id="pension_plan"><phrase id="fldcaption" value="Pension Plan"/>
+</field>
+<field id="rsano"><phrase id="fldcaption" value="RSA Number"/>
+</field>
+<field id="pension_admin"><phrase id="fldcaption" value="Pension Fund Administrator"/>
+</field>
+<field id="datecreated"><phrase id="fldcaption" value="Date Created"/>
+</field>
+</table>
+<table id="bank_details"/>
+<table id="beneficiary_dump"><phrase id="tblcaption" value="Beneficiary's Details"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="uid"><phrase id="fldcaption" value="UID"/>
+</field>
+<field id="childid"><phrase id="fldcaption" value="Child ID"/>
+</field>
+<field id="title"><phrase id="fldcaption" value="Title"/>
+</field>
+<field id="fullname"><phrase id="fldcaption" value="Full Name"/>
+</field>
+<field id="rtionship"><phrase id="fldcaption" value="Relationship"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="Email Address"/>
+</field>
+<field id="phone"><phrase id="fldcaption" value="Phone Number"/>
+</field>
+<field id="addr"><phrase id="fldcaption" value="Address"/>
+</field>
+<field id="city"><phrase id="fldcaption" value="City"/>
+</field>
+<field id="state"><phrase id="fldcaption" value="State"/>
+</field>
+<field id="percentage"><phrase id="fldcaption" value="percentage"/>
+</field>
+<field id="percentage1"><phrase id="fldcaption" value="percentage 1"/>
+</field>
+<field id="percentage2"><phrase id="fldcaption" value="percentage 2"/>
+</field>
+<field id="percentage3"><phrase id="fldcaption" value="percentage 3"/>
+</field>
+<field id="datecreated"><phrase id="fldcaption" value="Date Created"/>
+</field>
+<field id="passport"><phrase id="fldcaption" value="Passport"/>
+</field>
+</table>
+<table id="child_tb"><phrase id="tblcaption" value="child tb"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+</field>
+<field id="uid"><phrase id="fldcaption" value="uid"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="status"/>
+</field>
+</table>
+<table id="children_details"><phrase id="tblcaption" value="Child's Details"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="uid"><phrase id="fldcaption" value="UID"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="Full Name"/>
+</field>
+<field id="gender"><phrase id="fldcaption" value="Gender"/>
+</field>
+<field id="dob"><phrase id="fldcaption" value="Date of Birth"/>
+</field>
+<field id="age"><phrase id="fldcaption" value="Age"/>
+</field>
+<field id="title"><phrase id="fldcaption" value="Title"/>
+</field>
+<field id="guardianname"><phrase id="fldcaption" value="Guardian Name"/>
+</field>
+<field id="rtionship"><phrase id="fldcaption" value="Relationship"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="Email Address"/>
+</field>
+<field id="phone"><phrase id="fldcaption" value="Phone Number"/>
+</field>
+<field id="addr"><phrase id="fldcaption" value="Address"/>
+</field>
+<field id="city"><phrase id="fldcaption" value="City"/>
+</field>
+<field id="state"><phrase id="fldcaption" value="State"/>
+</field>
+<field id="stipend"><phrase id="fldcaption" value="Stipend"/>
+</field>
+<field id="alt_beneficiary"><phrase id="fldcaption" value="alt beneficiary"/>
+</field>
+<field id="datecreated"><phrase id="fldcaption" value="Date Created"/>
+</field>
+<field id="passport"><phrase id="fldcaption" value="Passport"/>
+</field>
+</table>
+<table id="comprehensive_will"/>
+<table id="divorce_tb"/>
+<table id="education_form"/>
+<table id="estate_form"/>
+<table id="executor_tb"><phrase id="tblcaption" value="Executors"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+</field>
+<field id="uid"><phrase id="fldcaption" value="uid"/>
+</field>
+<field id="title"><phrase id="fldcaption" value="Title"/>
+</field>
+<field id="fullname"><phrase id="fldcaption" value="Fullname"/>
+</field>
+<field id="rtionship"><phrase id="fldcaption" value="Relationship"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="Email Address"/>
+</field>
+<field id="phone"><phrase id="fldcaption" value="Phone Number"/>
+</field>
+<field id="addr"><phrase id="fldcaption" value="Address"/>
+</field>
+<field id="city"><phrase id="fldcaption" value="City"/>
+</field>
+<field id="state"><phrase id="fldcaption" value="State"/>
+</field>
+<field id="datecreated"><phrase id="fldcaption" value="Date Created"/>
+</field>
+</table>
+<table id="mail_templates"/>
+<table id="marital_status"/>
+<table id="overall_asset"><phrase id="tblcaption" value="Distribution of Assets"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="uid"><phrase id="fldcaption" value="UID"/>
+</field>
+<field id="beneficiaryid"><phrase id="fldcaption" value="Beneficiary ID"/>
+</field>
+<field id="propertyid"><phrase id="fldcaption" value="Property ID"/>
+</field>
+<field id="property_type"><phrase id="fldcaption" value="Asset Type"/>
+</field>
+<field id="percentage"><phrase id="fldcaption" value="Percentage"/>
+</field>
+<field id="datecreated"><phrase id="fldcaption" value="Date Created"/>
+</field>
+</table>
+<table id="payment_tb"><phrase id="tblcaption" value="Payment"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="uid"><phrase id="fldcaption" value="UID"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="Fullname"/>
+</field>
+<field id="transactionid"><phrase id="fldcaption" value="Transaction ID"/>
+</field>
+<field id="willtype"><phrase id="fldcaption" value="Form Name"/>
+</field>
+<field id="amount"><phrase id="fldcaption" value="Amount"/>
+</field>
+<field id="datepaid"><phrase id="fldcaption" value="Date Paid"/>
+</field>
+</table>
+<table id="personal_info"><phrase id="tblcaption" value="Personal Information"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="uid"><phrase id="fldcaption" value="UID"/>
+</field>
+<field id="salutation"><phrase id="fldcaption" value="Salutation"/>
+</field>
+<field id="fname"><phrase id="fldcaption" value="First Name"/>
+</field>
+<field id="mname"><phrase id="fldcaption" value="Middle Name"/>
+</field>
+<field id="lname"><phrase id="fldcaption" value="Last Name"/>
+</field>
+<field id="phone"><phrase id="fldcaption" value="Phone Number"/>
+</field>
+<field id="aphone"><phrase id="fldcaption" value="Alt. Phone Number"/>
+</field>
+<field id="msg"><phrase id="fldcaption" value="Address"/>
+</field>
+<field id="city"><phrase id="fldcaption" value="City"/>
+</field>
+<field id="rstate"><phrase id="fldcaption" value="Residing State"/>
+</field>
+<field id="dob"><phrase id="fldcaption" value="Date of Birth"/>
+</field>
+<field id="gender"><phrase id="fldcaption" value="Gender"/>
+</field>
+<field id="lga"><phrase id="fldcaption" value="LGA"/>
+</field>
+<field id="nationality"><phrase id="fldcaption" value="Nationality"/>
+</field>
+<field id="state"><phrase id="fldcaption" value="State of Origin"/>
+</field>
+<field id="employment_status"><phrase id="fldcaption" value="Employment Status"/>
+</field>
+<field id="employer"><phrase id="fldcaption" value="Employer"/>
+</field>
+<field id="employerphone"><phrase id="fldcaption" value="Employer's Phone Number"/>
+</field>
+<field id="employeraddr"><phrase id="fldcaption" value="Employer's Address"/>
+</field>
+<field id="datecreated"><phrase id="fldcaption" value="Date Created"/>
+</field>
+<field id="maidenname"><phrase id="fldcaption" value="Mother's Maiden Name"/>
+</field>
+<field id="passport"><phrase id="fldcaption" value="Passport"/>
+</field>
+<field id="identification_type"><phrase id="fldcaption" value="Identification Type"/>
+</field>
+<field id="identification_number"><phrase id="fldcaption" value="Identification Number"/>
+</field>
+<field id="issuedate"><phrase id="fldcaption" value="Issue Date"/>
+</field>
+<field id="expirydate"><phrase id="fldcaption" value="Expiry Place"/>
+</field>
+<field id="issuedplace"><phrase id="fldcaption" value="Place of Issue"/>
+</field>
+<field id="earning_type"><phrase id="fldcaption" value="Source of Fund"/>
+</field>
+<field id="earning_note"><phrase id="fldcaption" value="Note"/>
+</field>
+<field id="annual_income"><phrase id="fldcaption" value="Annual Income"/>
+</field>
+<field id="nameofcompany"><phrase id="fldcaption" value="Name of Company"/>
+</field>
+<field id="company_telephone"><phrase id="fldcaption" value="Telephone Number"/>
+</field>
+<field id="company_email"><phrase id="fldcaption" value="Email Address"/>
+</field>
+</table>
+<table id="preview_will"><phrase id="tblcaption" value="Submitted Forms"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="uid"><phrase id="fldcaption" value="UID"/>
+</field>
+<field id="willtype"><phrase id="fldcaption" value="Will/ Trust Name"/>
+</field>
+<field id="fullname"><phrase id="fldcaption" value="Fullname"/>
+</field>
+<field id="address"><phrase id="fldcaption" value="Address"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="Email Address"/>
+</field>
+<field id="phoneno"><phrase id="fldcaption" value="Phone Number"/>
+</field>
+<field id="aphoneno"><phrase id="fldcaption" value="Alt. Phone Number"/>
+</field>
+<field id="gender"><phrase id="fldcaption" value="Gender"/>
+</field>
+<field id="dob"><phrase id="fldcaption" value="Date of Birth"/>
+</field>
+<field id="state"><phrase id="fldcaption" value="State"/>
+</field>
+<field id="nationality"><phrase id="fldcaption" value="Nationality"/>
+</field>
+<field id="lga"><phrase id="fldcaption" value="LGA"/>
+</field>
+<field id="employmentstatus"><phrase id="fldcaption" value="Employment Status"/>
+</field>
+<field id="employer"><phrase id="fldcaption" value="Employer"/>
+</field>
+<field id="employerphone"><phrase id="fldcaption" value="Employer's Phone Number"/>
+</field>
+<field id="employeraddr"><phrase id="fldcaption" value="Employer's Address"/>
+</field>
+<field id="maritalstatus"><phrase id="fldcaption" value="Marital Status"/>
+</field>
+<field id="spname"><phrase id="fldcaption" value="Spouse Name"/>
+</field>
+<field id="spemail"><phrase id="fldcaption" value="Spouse Email"/>
+</field>
+<field id="spphone"><phrase id="fldcaption" value="Spouse Phone Number"/>
+</field>
+<field id="sdob"><phrase id="fldcaption" value="Spouse D.O.B"/>
+</field>
+<field id="spaddr"><phrase id="fldcaption" value="Spouse Address"/>
+</field>
+<field id="spcity"><phrase id="fldcaption" value="Spouse City"/>
+</field>
+<field id="spstate"><phrase id="fldcaption" value="Spouse State"/>
+</field>
+<field id="marriagetype"><phrase id="fldcaption" value="Marriage Type"/>
+</field>
+<field id="marriageyear"><phrase id="fldcaption" value="Marriage Year"/>
+</field>
+<field id="marriagecert"><phrase id="fldcaption" value="Marriage Certificate Number"/>
+</field>
+<field id="marriagecity"><phrase id="fldcaption" value="City of Marriage"/>
+</field>
+<field id="marriagecountry"><phrase id="fldcaption" value="Country of Marriage"/>
+</field>
+<field id="divorce"><phrase id="fldcaption" value="Divorce"/>
+</field>
+<field id="divorceyear"><phrase id="fldcaption" value="Year of Divorce"/>
+</field>
+<field id="addinfo"><phrase id="fldcaption" value="Special Wishes"/>
+</field>
+<field id="datecreated"><phrase id="fldcaption" value="Date Submitted"/>
+</field>
+</table>
+<table id="processflow_tb"><phrase id="tblcaption" value="Process Flow"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="uid"><phrase id="fldcaption" value="UID"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="Fullname"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="Email Address"/>
+</field>
+<field id="stage"><phrase id="fldcaption" value="Registration"/>
+</field>
+<field id="progress"><phrase id="fldcaption" value="Step 1"/>
+<phrase id="fldtagvalue1" value="Yes"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="No"/>
+<phrase id="fldtagcaption2" value="No"/>
+<phrase id="fldtagvalue3" value="In-view"/>
+<phrase id="fldtagcaption3" value="In-view"/>
+</field>
+<field id="stage2"><phrase id="fldcaption" value="stage 2"/>
+</field>
+<field id="progress2"><phrase id="fldcaption" value="Step 2"/>
+<phrase id="fldtagvalue1" value="Yes"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="No"/>
+<phrase id="fldtagcaption2" value="No"/>
+<phrase id="fldtagvalue3" value="In-view"/>
+<phrase id="fldtagcaption3" value="In-view"/>
+</field>
+<field id="stage3"><phrase id="fldcaption" value="stage 3"/>
+</field>
+<field id="progress3"><phrase id="fldcaption" value="Step 3"/>
+<phrase id="fldtagvalue1" value="Yes"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="No"/>
+<phrase id="fldtagcaption2" value="No"/>
+<phrase id="fldtagvalue3" value="In-view"/>
+<phrase id="fldtagcaption3" value="In-view"/>
+</field>
+<field id="stage4"><phrase id="fldcaption" value="stage 4"/>
+</field>
+<field id="progress4"><phrase id="fldcaption" value="Step 4"/>
+<phrase id="fldtagvalue1" value="Yes"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="No"/>
+<phrase id="fldtagcaption2" value="No"/>
+<phrase id="fldtagvalue3" value="In-view"/>
+<phrase id="fldtagcaption3" value="In-view"/>
+</field>
+<field id="stage5"><phrase id="fldcaption" value="stage 5"/>
+</field>
+<field id="progress5"><phrase id="fldcaption" value="Step 5"/>
+<phrase id="fldtagvalue1" value="Yes"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="No"/>
+<phrase id="fldtagcaption2" value="No"/>
+<phrase id="fldtagvalue3" value="In-view"/>
+<phrase id="fldtagcaption3" value="In-view"/>
+</field>
+<field id="stage6"><phrase id="fldcaption" value="stage 6"/>
+</field>
+<field id="progress6"><phrase id="fldcaption" value="Step 6"/>
+<phrase id="fldtagvalue1" value="Yes"/>
+<phrase id="fldtagcaption1" value="Yes"/>
+<phrase id="fldtagvalue2" value="No"/>
+<phrase id="fldtagcaption2" value="No"/>
+<phrase id="fldtagvalue3" value="In-view"/>
+<phrase id="fldtagcaption3" value="In-view"/>
+</field>
+</table>
+<table id="spouse_tb"><phrase id="tblcaption" value="Spouse Details"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="uid"><phrase id="fldcaption" value="UID"/>
+</field>
+<field id="title"><phrase id="fldcaption" value="Title"/>
+</field>
+<field id="fullname"><phrase id="fldcaption" value="Fullname"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="Email Address"/>
+</field>
+<field id="dob"><phrase id="fldcaption" value="Date of Birth"/>
+</field>
+<field id="phoneno"><phrase id="fldcaption" value="Phone Number"/>
+</field>
+<field id="altphoneno"><phrase id="fldcaption" value="Alt. Phone Number"/>
+</field>
+<field id="addr"><phrase id="fldcaption" value="Address"/>
+</field>
+<field id="city"><phrase id="fldcaption" value="City"/>
+</field>
+<field id="state"><phrase id="fldcaption" value="State"/>
+</field>
+<field id="marriagetype"><phrase id="fldcaption" value="Marriage Type"/>
+</field>
+<field id="marriageyear"><phrase id="fldcaption" value="Marriage Year"/>
+</field>
+<field id="marriagecert"><phrase id="fldcaption" value="Marriage Certificate"/>
+</field>
+<field id="citym"><phrase id="fldcaption" value="City of Marriage"/>
+</field>
+<field id="countrym"><phrase id="fldcaption" value="Country of Marriage"/>
+</field>
+<field id="datecreated"><phrase id="fldcaption" value="Date Created"/>
+</field>
+</table>
+<table id="trustee_tb"><phrase id="tblcaption" value="trustee tb"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+</field>
+<field id="uid"><phrase id="fldcaption" value="uid"/>
+</field>
+<field id="title"><phrase id="fldcaption" value="title"/>
+</field>
+<field id="fullname"><phrase id="fldcaption" value="fullname"/>
+</field>
+<field id="rtionship"><phrase id="fldcaption" value="rtionship"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="email"/>
+</field>
+<field id="phone"><phrase id="fldcaption" value="phone"/>
+</field>
+<field id="addr"><phrase id="fldcaption" value="addr"/>
+</field>
+<field id="city"><phrase id="fldcaption" value="city"/>
+</field>
+<field id="state"><phrase id="fldcaption" value="state"/>
+</field>
+<field id="datecreated"><phrase id="fldcaption" value="datecreated"/>
+</field>
+</table>
+<table id="will_tb"><phrase id="tblcaption" value="Downloadable Forms"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="name"><phrase id="fldcaption" value="Title"/>
+</field>
+<field id="pdflink"><phrase id="fldcaption" value="Upload"/>
+</field>
+<field id="rating_order"><phrase id="fldcaption" value="Rating Order"/>
+<phrase id="fldtagvalue1" value="1"/>
+<phrase id="fldtagcaption1" value="1"/>
+<phrase id="fldtagvalue2" value="2"/>
+<phrase id="fldtagcaption2" value="2"/>
+<phrase id="fldtagvalue3" value="3"/>
+<phrase id="fldtagcaption3" value="3"/>
+<phrase id="fldtagvalue4" value="4"/>
+<phrase id="fldtagcaption4" value="4"/>
+<phrase id="fldtagvalue5" value="5"/>
+<phrase id="fldtagcaption5" value="5"/>
+<phrase id="fldtagvalue6" value="6"/>
+<phrase id="fldtagcaption6" value="6"/>
+<phrase id="fldtagvalue7" value="7"/>
+<phrase id="fldtagcaption7" value="7"/>
+<phrase id="fldtagvalue8" value="8"/>
+<phrase id="fldtagcaption8" value="8"/>
+<phrase id="fldtagvalue9" value="9"/>
+<phrase id="fldtagcaption9" value="9"/>
+</field>
+</table>
+<table id="willtype"/>
+<table id="witness_tb"><phrase id="tblcaption" value="Witness"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+</field>
+<field id="uid"><phrase id="fldcaption" value="uid"/>
+</field>
+<field id="title"><phrase id="fldcaption" value="title"/>
+</field>
+<field id="fullname"><phrase id="fldcaption" value="fullname"/>
+</field>
+<field id="rtionship"><phrase id="fldcaption" value="rtionship"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="email"/>
+</field>
+<field id="phone"><phrase id="fldcaption" value="phone"/>
+</field>
+<field id="addr"><phrase id="fldcaption" value="addr"/>
+</field>
+<field id="address"><phrase id="fldcaption" value="address"/>
+</field>
+<field id="city"><phrase id="fldcaption" value="city"/>
+</field>
+<field id="state"><phrase id="fldcaption" value="state"/>
+</field>
+<field id="datecreated"><phrase id="fldcaption" value="datecreated"/>
+</field>
+<field id="occupation"><phrase id="fldcaption" value="occupation"/>
+</field>
+<field id="mobile"><phrase id="fldcaption" value="mobile"/>
+</field>
+<field id="signature"><phrase id="fldcaption" value="signature"/>
+</field>
+</table>
+<table id="comprehensivewill_tb"><phrase id="tblcaption" value="Comprehensive Will"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="uid"><phrase id="fldcaption" value="UID"/>
+</field>
+<field id="willtype"><phrase id="fldcaption" value="Will Name"/>
+</field>
+<field id="fullname"><phrase id="fldcaption" value="Full Name"/>
+</field>
+<field id="address"><phrase id="fldcaption" value="Address"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="Email Address"/>
+</field>
+<field id="phoneno"><phrase id="fldcaption" value="Phone Number"/>
+</field>
+<field id="aphoneno"><phrase id="fldcaption" value="Alt. Phone Number"/>
+</field>
+<field id="gender"><phrase id="fldcaption" value="Gender"/>
+</field>
+<field id="dob"><phrase id="fldcaption" value="Date of Birth"/>
+</field>
+<field id="state"><phrase id="fldcaption" value="State"/>
+</field>
+<field id="nationality"><phrase id="fldcaption" value="Nationality"/>
+</field>
+<field id="lga"><phrase id="fldcaption" value="LGA"/>
+</field>
+<field id="employmentstatus"><phrase id="fldcaption" value="Employment Status"/>
+</field>
+<field id="employer"><phrase id="fldcaption" value="Employer"/>
+</field>
+<field id="employerphone"><phrase id="fldcaption" value="Employer Phone Number"/>
+</field>
+<field id="employeraddr"><phrase id="fldcaption" value="Employer Address"/>
+</field>
+<field id="maritalstatus"><phrase id="fldcaption" value="Marital Status"/>
+</field>
+<field id="spname"><phrase id="fldcaption" value="Spouse Name"/>
+</field>
+<field id="spemail"><phrase id="fldcaption" value="Spouse Email"/>
+</field>
+<field id="spphone"><phrase id="fldcaption" value="Spouse Phone Number"/>
+</field>
+<field id="sdob"><phrase id="fldcaption" value="Spouse Date of Birth"/>
+</field>
+<field id="spaddr"><phrase id="fldcaption" value="Spouse Address"/>
+</field>
+<field id="spcity"><phrase id="fldcaption" value="Spouse City"/>
+</field>
+<field id="spstate"><phrase id="fldcaption" value="Spouse State"/>
+</field>
+<field id="marriagetype"><phrase id="fldcaption" value="Marriage Type"/>
+</field>
+<field id="marriageyear"><phrase id="fldcaption" value="Year of Marriage"/>
+</field>
+<field id="marriagecert"><phrase id="fldcaption" value="Marriage Certificate"/>
+</field>
+<field id="marriagecity"><phrase id="fldcaption" value="Marriage City"/>
+</field>
+<field id="marriagecountry"><phrase id="fldcaption" value="Marriage Country"/>
+</field>
+<field id="divorce"><phrase id="fldcaption" value="Divorce"/>
+</field>
+<field id="divorceyear"><phrase id="fldcaption" value="Divorce Year"/>
+</field>
+<field id="addinfo"><phrase id="fldcaption" value="Additional Information"/>
+</field>
+<field id="datecreated"><phrase id="fldcaption" value="Date Created"/>
+</field>
+</table>
+<table id="education_access_level"/>
+<table id="education_beneficiary"><phrase id="tblcaption" value="education beneficiary"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+</field>
+<field id="uid"><phrase id="fldcaption" value="uid"/>
+</field>
+<field id="nameofchild"><phrase id="fldcaption" value="nameofchild"/>
+</field>
+<field id="dob"><phrase id="fldcaption" value="dob"/>
+</field>
+<field id="relationship"><phrase id="fldcaption" value="relationship"/>
+</field>
+<field id="sex"><phrase id="fldcaption" value="sex"/>
+</field>
+<field id="percentage"><phrase id="fldcaption" value="percentage"/>
+</field>
+<field id="dateposted"><phrase id="fldcaption" value="dateposted"/>
+</field>
+</table>
+<table id="education_tb"><phrase id="tblcaption" value="Education Trust Form"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="uid"><phrase id="fldcaption" value="UID"/>
+</field>
+<field id="fullname"><phrase id="fldcaption" value="Full Name"/>
+</field>
+<field id="address"><phrase id="fldcaption" value="Address"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="Email Address"/>
+</field>
+<field id="maidenname"><phrase id="fldcaption" value="Mother's Maiden Name"/>
+</field>
+<field id="phoneno"><phrase id="fldcaption" value="Phone Number"/>
+</field>
+<field id="aphoneno"><phrase id="fldcaption" value="Alt. Phone Number"/>
+</field>
+<field id="maritalstatus"><phrase id="fldcaption" value="Marital Status"/>
+</field>
+<field id="gender"><phrase id="fldcaption" value="Gender"/>
+</field>
+<field id="dob"><phrase id="fldcaption" value="Date of Birth"/>
+</field>
+<field id="state"><phrase id="fldcaption" value="State"/>
+</field>
+<field id="nationality"><phrase id="fldcaption" value="Nationality"/>
+</field>
+<field id="lga"><phrase id="fldcaption" value="LGA"/>
+</field>
+<field id="employer"><phrase id="fldcaption" value="Employer"/>
+</field>
+<field id="employerphone"><phrase id="fldcaption" value="Employer's Phone"/>
+</field>
+<field id="employeraddr"><phrase id="fldcaption" value="Employer's Address"/>
+</field>
+<field id="idnumber"><phrase id="fldcaption" value="Identification Number"/>
+</field>
+<field id="issuedate"><phrase id="fldcaption" value="Date Issued"/>
+</field>
+<field id="employmentstatus"><phrase id="fldcaption" value="Employment Status"/>
+</field>
+<field id="expirydate"><phrase id="fldcaption" value="Expiry Date"/>
+</field>
+<field id="datecreated"><phrase id="fldcaption" value="Date Created"/>
+</field>
+<field id="willtype"><phrase id="fldcaption" value="Will Type"/>
+</field>
+<field id="identificationtype"><phrase id="fldcaption" value="Means Of Identification"/>
+</field>
+<field id="issueplace"><phrase id="fldcaption" value="Place of Issue"/>
+</field>
+<field id="spousename"><phrase id="fldcaption" value="Spouse Name"/>
+</field>
+<field id="spouseemail"><phrase id="fldcaption" value="Spouse Email"/>
+</field>
+<field id="spousephone"><phrase id="fldcaption" value="Spouse Phone Number"/>
+</field>
+<field id="spousedob"><phrase id="fldcaption" value="Spouse D.O.B"/>
+</field>
+<field id="spouseaddr"><phrase id="fldcaption" value="Spouse Address"/>
+</field>
+<field id="spousecity"><phrase id="fldcaption" value="Spouse City"/>
+</field>
+<field id="spousestate"><phrase id="fldcaption" value="Spouse State"/>
+</field>
+<field id="marriagetype"><phrase id="fldcaption" value="Marriage Type"/>
+</field>
+<field id="marriageyear"><phrase id="fldcaption" value="Marriage Year"/>
+</field>
+<field id="marriagecert"><phrase id="fldcaption" value="Marriage Certificate"/>
+</field>
+<field id="cityofmarriage"><phrase id="fldcaption" value="City of Marriage"/>
+</field>
+<field id="countryofmarriage"><phrase id="fldcaption" value="Country of Marriage"/>
+</field>
+<field id="divorce"><phrase id="fldcaption" value="Divorce"/>
+</field>
+<field id="divorceyear"><phrase id="fldcaption" value="Divorce Year"/>
+</field>
+<field id="nextofkinfullname"><phrase id="fldcaption" value="Next of Kin (Fullname)"/>
+</field>
+<field id="nextofkintelephone"><phrase id="fldcaption" value="Next of Kin (Telephone)"/>
+</field>
+<field id="nextofkinemail"><phrase id="fldcaption" value="Next of Kin (Email Address)"/>
+</field>
+<field id="nextofkinaddress"><phrase id="fldcaption" value="Next of Kin (Address)"/>
+</field>
+<field id="nameofcompany"><phrase id="fldcaption" value="Human Resources Contact (Company) "/>
+</field>
+<field id="humanresourcescontacttelephone"><phrase id="fldcaption" value="Human Resources Contact (Telephone)"/>
+</field>
+<field id="humanresourcescontactemailaddress"><phrase id="fldcaption" value="Human Resources Contact (Email Address)"/>
+</field>
+</table>
+<table id="humanresourcescontact"><phrase id="tblcaption" value="humanresourcescontact"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+</field>
+<field id="uid"><phrase id="fldcaption" value="uid"/>
+</field>
+<field id="nameofcompany"><phrase id="fldcaption" value="nameofcompany"/>
+</field>
+<field id="telephone"><phrase id="fldcaption" value="telephone"/>
+</field>
+<field id="emailaddress"><phrase id="fldcaption" value="emailaddress"/>
+</field>
+</table>
+<table id="identification_tb"><phrase id="tblcaption" value="identification tb"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+</field>
+<field id="uid"><phrase id="fldcaption" value="uid"/>
+</field>
+<field id="type"><phrase id="fldcaption" value="type"/>
+</field>
+<field id="idnumber"><phrase id="fldcaption" value="idnumber"/>
+</field>
+<field id="issuedate"><phrase id="fldcaption" value="issuedate"/>
+</field>
+<field id="expirydate"><phrase id="fldcaption" value="expirydate"/>
+</field>
+<field id="issueplace"><phrase id="fldcaption" value="issueplace"/>
+</field>
+</table>
+<table id="investment_form"><phrase id="tblcaption" value="Investment Trust"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+</field>
+<field id="uid"><phrase id="fldcaption" value="uid"/>
+</field>
+<field id="fullname"><phrase id="fldcaption" value="fullname"/>
+</field>
+<field id="gender"><phrase id="fldcaption" value="gender"/>
+</field>
+<field id="maritalstatus"><phrase id="fldcaption" value="maritalstatus"/>
+</field>
+<field id="dob"><phrase id="fldcaption" value="dob"/>
+</field>
+<field id="address"><phrase id="fldcaption" value="address"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="email"/>
+</field>
+<field id="phoneno"><phrase id="fldcaption" value="phoneno"/>
+</field>
+<field id="state"><phrase id="fldcaption" value="state"/>
+</field>
+<field id="lga"><phrase id="fldcaption" value="lga"/>
+</field>
+<field id="nationality"><phrase id="fldcaption" value="nationality"/>
+</field>
+<field id="kin"><phrase id="fldcaption" value="kin"/>
+</field>
+<field id="kinaddr"><phrase id="fldcaption" value="kinaddr"/>
+</field>
+<field id="spname"><phrase id="fldcaption" value="spname"/>
+</field>
+<field id="spaddr"><phrase id="fldcaption" value="spaddr"/>
+</field>
+<field id="spphone"><phrase id="fldcaption" value="spphone"/>
+</field>
+<field id="sdob"><phrase id="fldcaption" value="sdob"/>
+</field>
+<field id="idtype"><phrase id="fldcaption" value="idtype"/>
+</field>
+<field id="dateissued"><phrase id="fldcaption" value="dateissued"/>
+</field>
+<field id="expirydate"><phrase id="fldcaption" value="expirydate"/>
+</field>
+<field id="datecreated"><phrase id="fldcaption" value="datecreated"/>
+</field>
+</table>
+<table id="nextofkin"><phrase id="tblcaption" value="Next of Kin"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+</field>
+<field id="uid"><phrase id="fldcaption" value="uid"/>
+</field>
+<field id="fullname"><phrase id="fldcaption" value="Fullname"/>
+</field>
+<field id="maidenname"><phrase id="fldcaption" value="maidenname"/>
+</field>
+<field id="address"><phrase id="fldcaption" value="Address"/>
+</field>
+<field id="telephone"><phrase id="fldcaption" value="Phone Number"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="Email Address"/>
+</field>
+<field id="dateposted"><phrase id="fldcaption" value="Date Created"/>
+</field>
+</table>
+<table id="passport_tb"/>
+<table id="premiumwill_tb"><phrase id="tblcaption" value="Premium Will"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="uid"><phrase id="fldcaption" value="UID"/>
+</field>
+<field id="willtype"><phrase id="fldcaption" value="Will Type"/>
+</field>
+<field id="fullname"><phrase id="fldcaption" value="Full Name"/>
+</field>
+<field id="address"><phrase id="fldcaption" value="Address"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="Email Address"/>
+</field>
+<field id="phoneno"><phrase id="fldcaption" value="Phone Number"/>
+</field>
+<field id="aphoneno"><phrase id="fldcaption" value="Alt. Phone Number"/>
+</field>
+<field id="gender"><phrase id="fldcaption" value="Gender"/>
+</field>
+<field id="dob"><phrase id="fldcaption" value="Date of Birth"/>
+</field>
+<field id="state"><phrase id="fldcaption" value="State"/>
+</field>
+<field id="nationality"><phrase id="fldcaption" value="Nationality"/>
+</field>
+<field id="lga"><phrase id="fldcaption" value="LGA"/>
+</field>
+<field id="employmentstatus"><phrase id="fldcaption" value="Employment Status"/>
+</field>
+<field id="employer"><phrase id="fldcaption" value="Employer"/>
+</field>
+<field id="employerphone"><phrase id="fldcaption" value="Employer's Telephone"/>
+</field>
+<field id="employeraddr"><phrase id="fldcaption" value="Employer's Address"/>
+</field>
+<field id="maritalstatus"><phrase id="fldcaption" value="Marital Status"/>
+</field>
+<field id="spname"><phrase id="fldcaption" value="Spouse Name"/>
+</field>
+<field id="spemail"><phrase id="fldcaption" value="Spouse Email"/>
+</field>
+<field id="spphone"><phrase id="fldcaption" value="Spouse Telephone"/>
+</field>
+<field id="sdob"><phrase id="fldcaption" value="Spouse D.O.B"/>
+</field>
+<field id="spaddr"><phrase id="fldcaption" value="Spouse Address"/>
+</field>
+<field id="spcity"><phrase id="fldcaption" value="Spouse City"/>
+</field>
+<field id="spstate"><phrase id="fldcaption" value="Spouse State"/>
+</field>
+<field id="marriagetype"><phrase id="fldcaption" value="Marriage Type"/>
+</field>
+<field id="marriageyear"><phrase id="fldcaption" value="Marriage Year"/>
+</field>
+<field id="marriagecert"><phrase id="fldcaption" value="Marriage Certificate"/>
+</field>
+<field id="marriagecity"><phrase id="fldcaption" value="Marriage City"/>
+</field>
+<field id="marriagecountry"><phrase id="fldcaption" value="Marriage Country"/>
+</field>
+<field id="divorce"><phrase id="fldcaption" value="Divorce"/>
+</field>
+<field id="divorceyear"><phrase id="fldcaption" value="Divorce Year"/>
+</field>
+<field id="addinfo"><phrase id="fldcaption" value="Additional Information"/>
+</field>
+<field id="datecreated"><phrase id="fldcaption" value="Date Created"/>
+</field>
+</table>
+<table id="preview_will2"/>
+<table id="privatetrust_tb"><phrase id="tblcaption" value="Private Trust Form"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="uid"><phrase id="fldcaption" value="UID"/>
+</field>
+<field id="willtype"><phrase id="fldcaption" value="Will Type"/>
+</field>
+<field id="fullname"><phrase id="fldcaption" value="Full Name"/>
+</field>
+<field id="address"><phrase id="fldcaption" value="Address"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="Email Address"/>
+</field>
+<field id="phoneno"><phrase id="fldcaption" value="Phone Number"/>
+</field>
+<field id="aphoneno"><phrase id="fldcaption" value="Alt. Phone Number"/>
+</field>
+<field id="gender"><phrase id="fldcaption" value="Gender"/>
+</field>
+<field id="dob"><phrase id="fldcaption" value="Date of Birth"/>
+</field>
+<field id="state"><phrase id="fldcaption" value="State"/>
+</field>
+<field id="nationality"><phrase id="fldcaption" value="Nationality"/>
+</field>
+<field id="lga"><phrase id="fldcaption" value="LGA"/>
+</field>
+<field id="employmentstatus"><phrase id="fldcaption" value="Employment Status"/>
+</field>
+<field id="employer"><phrase id="fldcaption" value="Employer"/>
+</field>
+<field id="employerphone"><phrase id="fldcaption" value="Employer's Phone"/>
+</field>
+<field id="employeraddr"><phrase id="fldcaption" value="Employer's Address"/>
+</field>
+<field id="maritalstatus"><phrase id="fldcaption" value="Marital Status"/>
+</field>
+<field id="spname"><phrase id="fldcaption" value="Spouse Name"/>
+</field>
+<field id="spemail"><phrase id="fldcaption" value="Spouse Email Address"/>
+</field>
+<field id="spphone"><phrase id="fldcaption" value="Spouse Telephone"/>
+</field>
+<field id="sdob"><phrase id="fldcaption" value="Spouse D.O.B"/>
+</field>
+<field id="spaddr"><phrase id="fldcaption" value="Spouse Address"/>
+</field>
+<field id="spcity"><phrase id="fldcaption" value="Spouse City"/>
+</field>
+<field id="spstate"><phrase id="fldcaption" value="Spouse State"/>
+</field>
+<field id="marriagetype"><phrase id="fldcaption" value="Marriage Type"/>
+</field>
+<field id="marriageyear"><phrase id="fldcaption" value="Marriage Year"/>
+</field>
+<field id="marriagecert"><phrase id="fldcaption" value="Marriage Certificate"/>
+</field>
+<field id="marriagecity"><phrase id="fldcaption" value="Marriage City"/>
+</field>
+<field id="marriagecountry"><phrase id="fldcaption" value="Marriage Country"/>
+</field>
+<field id="divorce"><phrase id="fldcaption" value="Divorce"/>
+</field>
+<field id="divorceyear"><phrase id="fldcaption" value="Divorce Year"/>
+</field>
+<field id="addinfo"><phrase id="fldcaption" value="Additional Information"/>
+</field>
+<field id="datecreated"><phrase id="fldcaption" value="Date Created"/>
+</field>
+</table>
+<table id="reserve_form"><phrase id="tblcaption" value="reserve form"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+</field>
+<field id="uid"><phrase id="fldcaption" value="uid"/>
+</field>
+<field id="fullname"><phrase id="fldcaption" value="fullname"/>
+</field>
+<field id="gender"><phrase id="fldcaption" value="gender"/>
+</field>
+<field id="maritalstatus"><phrase id="fldcaption" value="maritalstatus"/>
+</field>
+<field id="dob"><phrase id="fldcaption" value="dob"/>
+</field>
+<field id="address"><phrase id="fldcaption" value="address"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="email"/>
+</field>
+<field id="phoneno"><phrase id="fldcaption" value="phoneno"/>
+</field>
+<field id="state"><phrase id="fldcaption" value="state"/>
+</field>
+<field id="lga"><phrase id="fldcaption" value="lga"/>
+</field>
+<field id="nationality"><phrase id="fldcaption" value="nationality"/>
+</field>
+<field id="kin"><phrase id="fldcaption" value="kin"/>
+</field>
+<field id="kinaddr"><phrase id="fldcaption" value="kinaddr"/>
+</field>
+<field id="spname"><phrase id="fldcaption" value="spname"/>
+</field>
+<field id="spaddr"><phrase id="fldcaption" value="spaddr"/>
+</field>
+<field id="spphone"><phrase id="fldcaption" value="spphone"/>
+</field>
+<field id="sdob"><phrase id="fldcaption" value="sdob"/>
+</field>
+<field id="idtype"><phrase id="fldcaption" value="idtype"/>
+</field>
+<field id="dateissued"><phrase id="fldcaption" value="dateissued"/>
+</field>
+<field id="expirydate"><phrase id="fldcaption" value="expirydate"/>
+</field>
+<field id="datecreated"><phrase id="fldcaption" value="datecreated"/>
+</field>
+</table>
+<table id="simplewill_access_level"/>
+<table id="simplewill_tb"><phrase id="tblcaption" value="Simple Will"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="uid"><phrase id="fldcaption" value="UID"/>
+</field>
+<field id="willtype"><phrase id="fldcaption" value="Will Type"/>
+</field>
+<field id="fullname"><phrase id="fldcaption" value="Full Name"/>
+</field>
+<field id="address"><phrase id="fldcaption" value="Address"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="Email Address"/>
+</field>
+<field id="phoneno"><phrase id="fldcaption" value="Phone Number"/>
+</field>
+<field id="aphoneno"><phrase id="fldcaption" value="Alt. Phone Number"/>
+</field>
+<field id="gender"><phrase id="fldcaption" value="Gender"/>
+</field>
+<field id="dob"><phrase id="fldcaption" value="Date of Birth"/>
+</field>
+<field id="state"><phrase id="fldcaption" value="State"/>
+</field>
+<field id="nationality"><phrase id="fldcaption" value="Nationality"/>
+</field>
+<field id="lga"><phrase id="fldcaption" value="LGA"/>
+</field>
+<field id="maidenname"><phrase id="fldcaption" value="Mother's Maiden Name"/>
+</field>
+<field id="identificationtype"><phrase id="fldcaption" value="Means of Identification"/>
+</field>
+<field id="idnumber"><phrase id="fldcaption" value="Identification Number"/>
+</field>
+<field id="issuedate"><phrase id="fldcaption" value="Issue Date"/>
+</field>
+<field id="expirydate"><phrase id="fldcaption" value="Expiry Date"/>
+</field>
+<field id="issueplace"><phrase id="fldcaption" value="Place of Issue"/>
+</field>
+<field id="employmentstatus"><phrase id="fldcaption" value="Employment Status"/>
+</field>
+<field id="employer"><phrase id="fldcaption" value="Employer"/>
+</field>
+<field id="employerphone"><phrase id="fldcaption" value="Employer's Telephone"/>
+</field>
+<field id="employeraddr"><phrase id="fldcaption" value="Employer's Address"/>
+</field>
+<field id="maritalstatus"><phrase id="fldcaption" value="Marital Status"/>
+</field>
+<field id="spousename"><phrase id="fldcaption" value="Spouse Name"/>
+</field>
+<field id="spouseemail"><phrase id="fldcaption" value="Spouse Email"/>
+</field>
+<field id="spousephone"><phrase id="fldcaption" value="Spouse Phone"/>
+</field>
+<field id="spousedob"><phrase id="fldcaption" value="Spouse D.O.B"/>
+</field>
+<field id="spouseaddr"><phrase id="fldcaption" value="Spouse Address"/>
+</field>
+<field id="spousecity"><phrase id="fldcaption" value="Spouse City"/>
+</field>
+<field id="spousestate"><phrase id="fldcaption" value="Spouse State"/>
+</field>
+<field id="marriagetype"><phrase id="fldcaption" value="Marriage Type"/>
+</field>
+<field id="marriageyear"><phrase id="fldcaption" value="Marriage Year"/>
+</field>
+<field id="marriagecert"><phrase id="fldcaption" value="Marriage Certificate"/>
+</field>
+<field id="cityofmarriage"><phrase id="fldcaption" value="City of Marriage"/>
+</field>
+<field id="countryofmarriage"><phrase id="fldcaption" value="Country of Marriage"/>
+</field>
+<field id="divorce"><phrase id="fldcaption" value="Divorce"/>
+</field>
+<field id="divorceyear"><phrase id="fldcaption" value="Divorce Year"/>
+</field>
+<field id="nextofkinfullname"><phrase id="fldcaption" value="Next of Kin (Fullname)"/>
+</field>
+<field id="nextofkintelephone"><phrase id="fldcaption" value="Next of Kin (Telephone)"/>
+</field>
+<field id="nextofkinemail"><phrase id="fldcaption" value="Next of Kin (Email Address)"/>
+</field>
+<field id="nextofkinaddress"><phrase id="fldcaption" value="Next of Kin (Address)"/>
+</field>
+<field id="nameofcompany"><phrase id="fldcaption" value="Human Resources Contact (Company)"/>
+</field>
+<field id="humanresourcescontacttelephone"><phrase id="fldcaption" value="Human Resources Contact (Telephone)"/>
+</field>
+<field id="humanresourcescontactemailaddress"><phrase id="fldcaption" value="Human Resources Contact (Email Address)"/>
+</field>
+<field id="datecreated"><phrase id="fldcaption" value="Date Created"/>
+</field>
+</table>
+<table id="sourceoffund"><phrase id="tblcaption" value="sourceoffund"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+</field>
+<field id="uid"><phrase id="fldcaption" value="uid"/>
+</field>
+<field id="earning_type"><phrase id="fldcaption" value="earning type"/>
+</field>
+<field id="note"><phrase id="fldcaption" value="note"/>
+</field>
+<field id="annual_income"><phrase id="fldcaption" value="annual income"/>
+</field>
+</table>
+<table id="trustdeed_tb"><phrase id="tblcaption" value="trustdeed tb"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+</field>
+<field id="uid"><phrase id="fldcaption" value="uid"/>
+</field>
+<field id="purposeoftrust"><phrase id="fldcaption" value="purposeoftrust"/>
+</field>
+<field id="nameoftrust"><phrase id="fldcaption" value="nameoftrust"/>
+</field>
+<field id="initialcontribution"><phrase id="fldcaption" value="initialcontribution"/>
+</field>
+<field id="dateposted"><phrase id="fldcaption" value="dateposted"/>
+</field>
+</table>
+<table id="investmenttrust_tb"><phrase id="tblcaption" value="Investment Trust Form"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="uid"><phrase id="fldcaption" value="UID"/>
+</field>
+<field id="fullname"><phrase id="fldcaption" value="Full Name"/>
+</field>
+<field id="address"><phrase id="fldcaption" value="Address"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="Email Address"/>
+</field>
+<field id="maidenname"><phrase id="fldcaption" value="Mother's Maiden Name"/>
+</field>
+<field id="phoneno"><phrase id="fldcaption" value="Phone Number"/>
+</field>
+<field id="aphoneno"><phrase id="fldcaption" value="Alt. Phone Number"/>
+</field>
+<field id="maritalstatus"><phrase id="fldcaption" value="Marital Status"/>
+</field>
+<field id="gender"><phrase id="fldcaption" value="Gender"/>
+</field>
+<field id="dob"><phrase id="fldcaption" value="Date of Birth"/>
+</field>
+<field id="state"><phrase id="fldcaption" value="State"/>
+</field>
+<field id="nationality"><phrase id="fldcaption" value="Nationality"/>
+</field>
+<field id="lga"><phrase id="fldcaption" value="LGA"/>
+</field>
+<field id="employer"><phrase id="fldcaption" value="Employer"/>
+</field>
+<field id="employerphone"><phrase id="fldcaption" value="Employer's Telephone"/>
+</field>
+<field id="employeraddr"><phrase id="fldcaption" value="Employer's Address"/>
+</field>
+<field id="idnumber"><phrase id="fldcaption" value="Identification Number"/>
+</field>
+<field id="issuedate"><phrase id="fldcaption" value="Issued Date"/>
+</field>
+<field id="expirydate"><phrase id="fldcaption" value="Expiry Date"/>
+</field>
+<field id="datecreated"><phrase id="fldcaption" value="Date Created"/>
+</field>
+<field id="willtype"><phrase id="fldcaption" value="Will Type"/>
+</field>
+<field id="identificationtype"><phrase id="fldcaption" value="Means of Identification"/>
+</field>
+<field id="issueplace"><phrase id="fldcaption" value="Place of Issue"/>
+</field>
+<field id="employmentstatus"><phrase id="fldcaption" value="Employment Status"/>
+</field>
+<field id="spousename"><phrase id="fldcaption" value="Spouse Name"/>
+</field>
+<field id="spouseemail"><phrase id="fldcaption" value="Spouse Email"/>
+</field>
+<field id="spousephone"><phrase id="fldcaption" value="Spouse Phone Number"/>
+</field>
+<field id="spousedob"><phrase id="fldcaption" value="Spouse D.O.B"/>
+</field>
+<field id="spouseaddr"><phrase id="fldcaption" value="Spouse Address"/>
+</field>
+<field id="spousecity"><phrase id="fldcaption" value="Spouse City"/>
+</field>
+<field id="spousestate"><phrase id="fldcaption" value="Spouse State"/>
+</field>
+<field id="marriagetype"><phrase id="fldcaption" value="Marriage Type"/>
+</field>
+<field id="marriageyear"><phrase id="fldcaption" value="Marriage Year"/>
+</field>
+<field id="marriagecert"><phrase id="fldcaption" value="Marriage Certificate"/>
+</field>
+<field id="cityofmarriage"><phrase id="fldcaption" value="City of Marriage"/>
+</field>
+<field id="countryofmarriage"><phrase id="fldcaption" value="Country of Marriage"/>
+</field>
+<field id="divorce"><phrase id="fldcaption" value="Divorce"/>
+</field>
+<field id="divorceyear"><phrase id="fldcaption" value="Divorce Year"/>
+</field>
+<field id="nextofkinfullname"><phrase id="fldcaption" value="Next of Kin (Fullname)"/>
+</field>
+<field id="nextofkintelephone"><phrase id="fldcaption" value="Next of Kin (Telephone Number)"/>
+</field>
+<field id="nextofkinemail"><phrase id="fldcaption" value="Next of Kin (Email Address)"/>
+</field>
+<field id="nextofkinaddress"><phrase id="fldcaption" value="Next of Kin (Address)"/>
+</field>
+<field id="nameofcompany"><phrase id="fldcaption" value="Human Resources Contact (Company)"/>
+</field>
+<field id="humanresourcescontacttelephone"><phrase id="fldcaption" value="Human Resources Contact (Telephone)"/>
+</field>
+<field id="humanresourcescontactemailaddress"><phrase id="fldcaption" value="Human Resources Contact (Email Address)"/>
+</field>
+</table>
+<table id="reservetrust_tb"><phrase id="tblcaption" value="Reserve Trust Form"/>
+<field id="id"><phrase id="fldcaption" value="ID"/>
+</field>
+<field id="uid"><phrase id="fldcaption" value="UID"/>
+</field>
+<field id="willtype"><phrase id="fldcaption" value="Will Type"/>
+</field>
+<field id="fullname"><phrase id="fldcaption" value="Full Name"/>
+</field>
+<field id="address"><phrase id="fldcaption" value="Address"/>
+</field>
+<field id="_email"><phrase id="fldcaption" value="Email Address"/>
+</field>
+<field id="phoneno"><phrase id="fldcaption" value="Phone Number"/>
+</field>
+<field id="aphoneno"><phrase id="fldcaption" value="Alt. Phone Number"/>
+</field>
+<field id="gender"><phrase id="fldcaption" value="Gender"/>
+</field>
+<field id="dob"><phrase id="fldcaption" value="Date of Birth"/>
+</field>
+<field id="state"><phrase id="fldcaption" value="State"/>
+</field>
+<field id="nationality"><phrase id="fldcaption" value="Nationality"/>
+</field>
+<field id="lga"><phrase id="fldcaption" value="LGA"/>
+</field>
+<field id="employmentstatus"><phrase id="fldcaption" value="Employment Status"/>
+</field>
+<field id="employer"><phrase id="fldcaption" value="Employer"/>
+</field>
+<field id="employerphone"><phrase id="fldcaption" value="Employer's Phone"/>
+</field>
+<field id="employeraddr"><phrase id="fldcaption" value="Employer's Address"/>
+</field>
+<field id="maritalstatus"><phrase id="fldcaption" value="Marital Status"/>
+</field>
+<field id="marriagetype"><phrase id="fldcaption" value="Marriage Type"/>
+</field>
+<field id="marriageyear"><phrase id="fldcaption" value="Marriage Year"/>
+</field>
+<field id="marriagecert"><phrase id="fldcaption" value="Marriage Certificate"/>
+</field>
+<field id="divorce"><phrase id="fldcaption" value="Divorce"/>
+</field>
+<field id="divorceyear"><phrase id="fldcaption" value="Divorce Year"/>
+</field>
+<field id="datecreated"><phrase id="fldcaption" value="Date Created"/>
+</field>
+<field id="maidenname"><phrase id="fldcaption" value="Maiden Name"/>
+</field>
+<field id="identificationtype"><phrase id="fldcaption" value="Identification Type"/>
+</field>
+<field id="idnumber"><phrase id="fldcaption" value="Identification Number"/>
+</field>
+<field id="issuedate"><phrase id="fldcaption" value="Issued Date"/>
+</field>
+<field id="expirydate"><phrase id="fldcaption" value="Expiry Date"/>
+</field>
+<field id="issueplace"><phrase id="fldcaption" value="Place of Issue"/>
+</field>
+<field id="spousename"><phrase id="fldcaption" value="Spouse Name"/>
+</field>
+<field id="spouseemail"><phrase id="fldcaption" value="Spouse Email"/>
+</field>
+<field id="spousephone"><phrase id="fldcaption" value="Spouse Phone"/>
+</field>
+<field id="spousedob"><phrase id="fldcaption" value="Spouse D.O.B"/>
+</field>
+<field id="spouseaddr"><phrase id="fldcaption" value="Spouse Address"/>
+</field>
+<field id="spousecity"><phrase id="fldcaption" value="Spouse City"/>
+</field>
+<field id="spousestate"><phrase id="fldcaption" value="Spouse State"/>
+</field>
+<field id="cityofmarriage"><phrase id="fldcaption" value="City of Marriage"/>
+</field>
+<field id="countryofmarriage"><phrase id="fldcaption" value="Country of Marriage"/>
+</field>
+<field id="nextofkinfullname"><phrase id="fldcaption" value="Next of Kin (Fullname)"/>
+</field>
+<field id="nextofkintelephone"><phrase id="fldcaption" value="Next of Kin (Telephone)"/>
+</field>
+<field id="nextofkinemail"><phrase id="fldcaption" value="Next of Kin (Email)"/>
+</field>
+<field id="nextofkinaddress"><phrase id="fldcaption" value="Next of Kin (Address)"/>
+</field>
+<field id="nameofcompany"><phrase id="fldcaption" value="Human Resources Contact (Company)"/>
+</field>
+<field id="humanresourcescontacttelephone"><phrase id="fldcaption" value="Human Resources Contact (Telephone)"/>
+</field>
+<field id="humanresourcescontactemailaddress"><phrase id="fldcaption" value="Human Resources Contact (Email Address)"/>
+</field>
+</table>
+<table id="simplewill_assets_tb"><phrase id="tblcaption" value="Simple Will Assets"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+</field>
+<field id="uid"><phrase id="fldcaption" value="uid"/>
+</field>
+<field id="asset_type"><phrase id="fldcaption" value="Asset Type"/>
+</field>
+<field id="bvn"><phrase id="fldcaption" value="BVN"/>
+</field>
+<field id="account_name"><phrase id="fldcaption" value="Account Name"/>
+</field>
+<field id="account_no"><phrase id="fldcaption" value="Account Number"/>
+</field>
+<field id="bankname"><phrase id="fldcaption" value="Bank Name"/>
+</field>
+<field id="accounttype"><phrase id="fldcaption" value="Account Type"/>
+</field>
+<field id="rsa"><phrase id="fldcaption" value="RSA No."/>
+</field>
+<field id="pension_admin"><phrase id="fldcaption" value="Pension Administrator"/>
+</field>
+<field id="datecreated"><phrase id="fldcaption" value="Date Created"/>
+</field>
+</table>
+<table id="simplewill_overall_asset"><phrase id="tblcaption" value="Simple Will Percentage Sharing"/>
+<field id="id"><phrase id="fldcaption" value="id"/>
+</field>
+<field id="uid"><phrase id="fldcaption" value="uid"/>
+</field>
+<field id="beneficiaryid"><phrase id="fldcaption" value="Beneficiary ID"/>
+</field>
+<field id="propertyid"><phrase id="fldcaption" value="Property ID"/>
+</field>
+<field id="property_type"><phrase id="fldcaption" value="Asset Type"/>
+</field>
+<field id="percentage"><phrase id="fldcaption" value="Percentage"/>
+</field>
+<field id="datecreated"><phrase id="fldcaption" value="Date Created"/>
+</field>
+</table>
+</project>
+</ew-language>
